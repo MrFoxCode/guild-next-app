@@ -1,0 +1,24 @@
+@import "../styles/Variables.modules";
+
+.navbar-container {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(43, 43, 43);
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-container {
+
+    button {
+        @extend .generalButton;
+    }
+}
+
+.input-container{
+    input{
+        @extend .searchbar;
+    }
+}
