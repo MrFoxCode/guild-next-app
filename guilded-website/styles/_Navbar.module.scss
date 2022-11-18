@@ -1,19 +1,35 @@
 @import "../styles/Variables.modules";
 
-.navbar-container {
-    width: 100%;
+.navbar-container {   
     height: 80px;
-    background-color: rgb(43, 43, 43);
-    padding: 2px;
+    background-color: rgb(24, 24, 24);
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-around;
 }
 
-.buttons-container {
+.nav-logo-container{
+    width: 500px;
+    justify-content: space-between;
+    img{
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+        border-radius: 0;
+        border: 0;
+    }
+    @include flexCenter(); 
+}
 
-    button {
-        @extend .generalButton;
+
+.nav-sections-container{
+   
+    a{
+        font-size: 22px;
+        font-weight: 700;
+        margin-right: 30px;
+        margin-left: 30px; 
+        cursor: pointer;
     }
 }
 
@@ -22,3 +38,20 @@
         @extend .searchbar;
     }
 }
+
+.buttons-container {
+    button {
+        @extend .generalButton;
+    }
+}
+
+.lang-container{
+    @include flexCenter();
+    right: 0;
+    background-color: white;
+    width: 60px;
+    height: 30px;
+    color: black;
+    cursor: pointer;
+}
+

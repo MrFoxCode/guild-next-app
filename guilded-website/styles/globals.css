@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
 .generalButton, .buttons-container button {
   background-color: rgb(134, 125, 69);
   margin-left: 10px;
@@ -5,10 +6,10 @@
   width: 180px;
   height: 40px;
   border: 0;
-  border-radius: 2px;
+  border-radius: 3px;
   color: white;
   font-weight: 800;
-  font-size: 15px;
+  font-size: 20px;
   cursor: pointer;
 }
 
@@ -22,13 +23,147 @@
 }
 
 .navbar-container {
-  width: 100%;
   height: 80px;
-  background-color: rgb(43, 43, 43);
-  padding: 2px;
+  background-color: rgb(24, 24, 24);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-logo-container {
+  width: 500px;
+  justify-content: space-between;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+.nav-logo-container img {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  border-radius: 0;
+  border: 0;
+}
+
+.nav-sections-container a {
+  font-size: 22px;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.lang-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  right: 0;
+  background-color: white;
+  width: 60px;
+  height: 30px;
+  color: black;
+  cursor: pointer;
+}
+
+.generalButton, .buttons-container button {
+  background-color: rgb(134, 125, 69);
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 180px;
+  height: 40px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.searchbar, .input-container input {
+  background-color: white;
+  margin: 10px;
+  width: 250px;
+  height: 25px;
+  border: 0;
+  border-radius: 2px;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background-color: gray;
+}
+
+.generalButton, .buttons-container button {
+  background-color: rgb(134, 125, 69);
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 180px;
+  height: 40px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.searchbar, .input-container input {
+  background-color: white;
+  margin: 10px;
+  width: 250px;
+  height: 25px;
+  border: 0;
+  border-radius: 2px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(105, 105, 105);
+}
+
+.generalButton, .buttons-container button {
+  background-color: rgb(134, 125, 69);
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 180px;
+  height: 40px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.searchbar, .input-container input {
+  background-color: white;
+  margin: 10px;
+  width: 250px;
+  height: 25px;
+  border: 0;
+  border-radius: 2px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(32, 32, 32);
 }
 
 html,
@@ -47,6 +182,7 @@ a {
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -3,6 +3,9 @@
 @import '../styles/_About.module.scss';
 @import '../styles/_Footer.module.scss';
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+
 html,
 body {
   overflow-x: hidden;
@@ -19,6 +22,7 @@ a {
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
