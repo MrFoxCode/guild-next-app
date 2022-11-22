@@ -9,12 +9,12 @@
     flex-direction: column;
     width: 100%;
     height: 500px;
-    background-color: rgb(168, 168, 168);
+    background-color: $navbarcolor;
 }
 
 .top-footer-container{
     margin: 0;
-    background-color: gold;
+    background-color: #ad8b53;
     width: 100%;
     height: 20px;
 }
@@ -100,7 +100,7 @@
 
 
 .all-rights-container{
-    background-color: gray;
+    background-color: #ad8b53;
     @include flexCenter();
     width: 100%;
     height: 25px;

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
 .generalButton, .buttons-container button {
-  background-color: rgb(134, 125, 69);
+  background-color: #b89358;
   width: 180px;
   height: 40px;
   border: 0;
@@ -9,6 +9,24 @@
   font-weight: 800;
   font-size: 22px;
   cursor: pointer;
+}
+.generalButton:hover, .buttons-container button:hover {
+  background-color: #927649;
+}
+
+.homeButton, .mainpage-text-container button {
+  background-color: #b89358;
+  height: 80px;
+  width: 300px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+  font-size: 22px;
+  cursor: pointer;
+}
+.homeButton:hover, .mainpage-text-container button:hover {
+  background-color: #927649;
 }
 
 .searchbar, .input-container input {
@@ -66,7 +84,7 @@
 }
 
 .generalButton, .buttons-container button {
-  background-color: rgb(134, 125, 69);
+  background-color: #b89358;
   width: 180px;
   height: 40px;
   border: 0;
@@ -75,6 +93,24 @@
   font-weight: 800;
   font-size: 22px;
   cursor: pointer;
+}
+.generalButton:hover, .buttons-container button:hover {
+  background-color: #927649;
+}
+
+.homeButton, .mainpage-text-container button {
+  background-color: #b89358;
+  height: 80px;
+  width: 300px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+  font-size: 22px;
+  cursor: pointer;
+}
+.homeButton:hover, .mainpage-text-container button:hover {
+  background-color: #927649;
 }
 
 .searchbar, .input-container input {
@@ -93,11 +129,28 @@
   text-align: center;
   height: 100vh;
   width: 100%;
-  background-color: gray;
+  background-color: rgb(44, 44, 44);
+  background-size: fill;
+  background-position: top;
+  /* background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/10/Black-Desert-Wallpapers-HD-1.jpg");
+   */
+}
+
+.mainpage-text-container h1 {
+  font-size: 100px;
+  font-weight: bold;
+}
+.mainpage-text-container h3 {
+  font-size: 25px;
+}
+.mainpage-text-container button {
+  margin: 60px;
+  height: 80px;
+  width: 300px;
 }
 
 .generalButton, .buttons-container button {
-  background-color: rgb(134, 125, 69);
+  background-color: #b89358;
   width: 180px;
   height: 40px;
   border: 0;
@@ -106,6 +159,24 @@
   font-weight: 800;
   font-size: 22px;
   cursor: pointer;
+}
+.generalButton:hover, .buttons-container button:hover {
+  background-color: #927649;
+}
+
+.homeButton, .mainpage-text-container button {
+  background-color: #b89358;
+  height: 80px;
+  width: 300px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+  font-size: 22px;
+  cursor: pointer;
+}
+.homeButton:hover, .mainpage-text-container button:hover {
+  background-color: #927649;
 }
 
 .searchbar, .input-container input {
@@ -127,8 +198,47 @@
   background-color: rgb(105, 105, 105);
 }
 
+.about-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+.about-content-container .leader-image-container {
+  width: 500px;
+  height: 600px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.about-content-container .leader-image-container img {
+  background-color: rgb(0, 0, 122);
+  width: 400px;
+  height: 500px;
+}
+.about-content-container .about-text-container {
+  width: 700px;
+  flex-direction: column;
+}
+.about-content-container .about-text-container h3 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.about-content-container .about-text-container p {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
 .generalButton, .buttons-container button {
-  background-color: rgb(134, 125, 69);
+  background-color: #b89358;
   width: 180px;
   height: 40px;
   border: 0;
@@ -137,6 +247,68 @@
   font-weight: 800;
   font-size: 22px;
   cursor: pointer;
+}
+.generalButton:hover, .buttons-container button:hover {
+  background-color: #927649;
+}
+
+.homeButton, .mainpage-text-container button {
+  background-color: #b89358;
+  height: 80px;
+  width: 300px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+  font-size: 22px;
+  cursor: pointer;
+}
+.homeButton:hover, .mainpage-text-container button:hover {
+  background-color: #927649;
+}
+
+.searchbar, .input-container input {
+  background-color: white;
+  margin: 10px;
+  width: 250px;
+  height: 25px;
+  border: 0;
+  border-radius: 2px;
+}
+
+.gallery-container {
+  height: 100vh;
+  background-color: rgb(44, 44, 44);
+}
+
+.generalButton, .buttons-container button {
+  background-color: #b89358;
+  width: 180px;
+  height: 40px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+  font-size: 22px;
+  cursor: pointer;
+}
+.generalButton:hover, .buttons-container button:hover {
+  background-color: #927649;
+}
+
+.homeButton, .mainpage-text-container button {
+  background-color: #b89358;
+  height: 80px;
+  width: 300px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+  font-size: 22px;
+  cursor: pointer;
+}
+.homeButton:hover, .mainpage-text-container button:hover {
+  background-color: #927649;
 }
 
 .searchbar, .input-container input {
@@ -156,12 +328,12 @@
   flex-direction: column;
   width: 100%;
   height: 500px;
-  background-color: rgb(168, 168, 168);
+  background-color: rgb(24, 24, 24);
 }
 
 .top-footer-container {
   margin: 0;
-  background-color: gold;
+  background-color: #ad8b53;
   width: 100%;
   height: 20px;
 }
@@ -244,7 +416,7 @@
 }
 
 .all-rights-container {
-  background-color: gray;
+  background-color: #ad8b53;
   display: flex;
   justify-content: center;
   align-items: center;
