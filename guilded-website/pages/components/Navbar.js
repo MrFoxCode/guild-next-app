@@ -23,7 +23,7 @@ function Navbar() {
             </div> */}
 
             <div className="buttons-container">
-                <button className="join"> Join us now </button>
+                <a target= "_blank" href=" " ><button className="join"> Join us now </button></a>
                 {/* <button className="group" > group info </button> */}
             </div>
 

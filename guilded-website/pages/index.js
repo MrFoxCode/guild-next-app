@@ -14,7 +14,7 @@ function HomePage() {
       <Home />
       <About />
       <Footer />
-
+      
     </div>
   );
 }

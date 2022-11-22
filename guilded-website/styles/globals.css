@@ -1,15 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
 .generalButton, .buttons-container button {
   background-color: rgb(134, 125, 69);
-  margin-left: 10px;
-  margin-right: 10px;
   width: 180px;
   height: 40px;
   border: 0;
   border-radius: 3px;
   color: white;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 22px;
   cursor: pointer;
 }
 
@@ -69,15 +67,13 @@
 
 .generalButton, .buttons-container button {
   background-color: rgb(134, 125, 69);
-  margin-left: 10px;
-  margin-right: 10px;
   width: 180px;
   height: 40px;
   border: 0;
   border-radius: 3px;
   color: white;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 22px;
   cursor: pointer;
 }
 
@@ -102,15 +98,13 @@
 
 .generalButton, .buttons-container button {
   background-color: rgb(134, 125, 69);
-  margin-left: 10px;
-  margin-right: 10px;
   width: 180px;
   height: 40px;
   border: 0;
   border-radius: 3px;
   color: white;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 22px;
   cursor: pointer;
 }
 
@@ -135,15 +129,13 @@
 
 .generalButton, .buttons-container button {
   background-color: rgb(134, 125, 69);
-  margin-left: 10px;
-  margin-right: 10px;
   width: 180px;
   height: 40px;
   border: 0;
   border-radius: 3px;
   color: white;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 22px;
   cursor: pointer;
 }
 
@@ -157,13 +149,108 @@
 }
 
 .footer-container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  flex-direction: column;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(168, 168, 168);
+}
+
+.top-footer-container {
+  margin: 0;
+  background-color: gold;
+  width: 100%;
+  height: 20px;
+}
+
+.footer-content-container {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   width: 100%;
-  height: 50vh;
-  background-color: rgb(32, 32, 32);
+  height: 455px;
+}
+.footer-content-container .footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 455px;
+  width: 80%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer-content-container .footer-content p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 75%;
+  padding: 10px;
+  font-size: 20px;
+  text-align: start;
+}
+.footer-content-container .footer-content .footer-content-image {
+  width: 15%;
+}
+.footer-content-container .footer-content .footer-content-image img {
+  background-color: blue;
+  border: 0;
+  width: 150px;
+  height: 150px;
+}
+.footer-content-container .footer-content-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: red;
+  height: 455px;
+  width: 20%;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-content-container .footer-content-socials .discord-container, .footer-content-container .footer-content-socials .twitter-container, .footer-content-container .footer-content-socials .instagram-container {
+  background-color: green;
+  width: 300px;
+  height: 50px;
+}
+.footer-content-container .footer-content-socials .stacks-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 20%;
+}
+.footer-content-container .footer-content-socials .stacks-container .stacks-container-images {
+  justify-content: space-around;
+  width: 300px;
+  height: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.footer-content-container .footer-content-socials .stacks-container .stacks-container-images img {
+  background-color: greenyellow;
+  width: 40px;
+  height: 40px;
+  margin: 15px;
+}
+
+.all-rights-container {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 25px;
 }
 
 html,
