@@ -279,6 +279,99 @@
 .gallery-container {
   height: 100vh;
   background-color: rgb(44, 44, 44);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.gallery-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: gray;
+  height: 720px;
+  width: 100%;
+}
+.gallery-content-container div {
+  border-radius: 10px;
+}
+.gallery-content-container .screenshots-container {
+  height: 700px;
+  width: 500px;
+  background-color: yellowgreen;
+}
+.gallery-content-container .screenshots-container:hover {
+  transform: scale(1.02);
+  transition-duration: 0.3s;
+}
+.gallery-content-container .gallery-right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 700px;
+  width: 800px;
+  flex-direction: column;
+}
+.gallery-content-container .gallery-right-side .gallery-box2 {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  height: 350px;
+}
+.gallery-content-container .gallery-right-side .gallery-box2 .uniform-container {
+  width: 400px;
+  height: 350px;
+  background-color: yellow;
+}
+.gallery-content-container .gallery-right-side .gallery-box2 .uniform-container:hover {
+  transform: scale(1.02);
+  transition-duration: 0.3s;
+}
+.gallery-content-container .gallery-right-side .gallery-box2 .styles-container {
+  width: 400px;
+  height: 350px;
+  background-color: blue;
+}
+.gallery-content-container .gallery-right-side .gallery-box2 .styles-container:hover {
+  transform: scale(1.02);
+  transition-duration: 0.3s;
+}
+.gallery-content-container .gallery-right-side .gallery-box3 {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  height: 350px;
+}
+.gallery-content-container .gallery-right-side .gallery-box3 .guides-container {
+  width: 266px;
+  height: 350px;
+  background-color: yellow;
+}
+.gallery-content-container .gallery-right-side .gallery-box3 .guides-container:hover {
+  transform: scale(1.02);
+  transition-duration: 0.3s;
+}
+.gallery-content-container .gallery-right-side .gallery-box3 .gear-container {
+  width: 266px;
+  height: 350px;
+  background-color: blue;
+}
+.gallery-content-container .gallery-right-side .gallery-box3 .gear-container:hover {
+  transform: scale(1.02);
+  transition-duration: 0.3s;
+}
+.gallery-content-container .gallery-right-side .gallery-box3 .lifeskills-container {
+  width: 266px;
+  height: 350px;
+  background-color: red;
+}
+.gallery-content-container .gallery-right-side .gallery-box3 .lifeskills-container:hover {
+  transform: scale(1.02);
+  transition-duration: 0.3s;
 }
 
 .generalButton, .buttons-container button {

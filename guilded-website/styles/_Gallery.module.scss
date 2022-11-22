@@ -4,4 +4,101 @@
 .gallery-container{
     height: 100vh;
     background-color: $homebgcolor;
+    @include flexCenter();
+    flex-direction: column;
+}
+
+
+.gallery-content-container{    
+    @include flexCenter();
+    background-color: gray;
+    height: 720px;
+    width: 100%;
+
+    div{
+        border-radius: 10px;
+        
+    }
+    
+    .screenshots-container{
+        height: 700px;
+        width: 500px;
+        background-color: yellowgreen;
+        &:hover{
+            transform: scale(1.02);
+            transition-duration: 0.3s;
+        }        
+    }
+
+
+    .gallery-right-side{
+        @include flexCenter();
+        height: 700px;
+        width: 800px;
+        flex-direction: column;
+        
+        .gallery-box2{
+            display: flex;
+            flex-direction: row;
+            width: 800px;
+            height: 350px;
+
+            .uniform-container{
+                width: 400px;
+                height: 350px;
+                background-color: yellow;
+                &:hover{
+                    transform: scale(1.02);
+                    transition-duration: 0.3s;
+                }
+            }
+            .styles-container{
+                width: 400px;
+                height: 350px;
+                background-color:blue;
+                &:hover{
+                    transform: scale(1.02);
+                    transition-duration: 0.3s;
+                }
+            }
+        }
+
+        .gallery-box3{
+            display: flex;
+            flex-direction: row;
+            width: 800px;
+            height: 350px;
+
+            .guides-container{
+                width: 266px;
+                height: 350px;
+                background-color: yellow;
+                &:hover{
+                    transform: scale(1.02);
+                    transition-duration: 0.3s;
+                }
+            }
+            .gear-container{
+                width: 266px;
+                height: 350px;
+                background-color:blue;
+                &:hover{
+                    transform: scale(1.02);
+                    transition-duration: 0.3s;
+                }
+            }
+            .lifeskills-container{
+                width: 266px;
+                height: 350px;
+                background-color:red;
+                &:hover{
+                    transform: scale(1.02);
+                    transition-duration: 0.3s;
+                }
+            }
+        }
+    }
+
+
+
 }
