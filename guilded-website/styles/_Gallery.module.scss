@@ -6,18 +6,22 @@
     background-color: $homebgcolor;
     @include flexCenter();
     flex-direction: column;
+
+    h1{
+        font-size: 40px;
+        margin-bottom: 35px;
+    }
 }
 
 
 .gallery-content-container{    
     @include flexCenter();
-    background-color: gray;
+    // background-color: gray;
     height: 720px;
     width: 100%;
 
     div{
         border-radius: 10px;
-        
     }
     
     .screenshots-container{
@@ -55,7 +59,7 @@
             .styles-container{
                 width: 400px;
                 height: 350px;
-                background-color:blue;
+                background-color:orange;
                 &:hover{
                     transform: scale(1.02);
                     transition-duration: 0.3s;

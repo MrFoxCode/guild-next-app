@@ -285,13 +285,16 @@
   text-align: center;
   flex-direction: column;
 }
+.gallery-container h1 {
+  font-size: 40px;
+  margin-bottom: 35px;
+}
 
 .gallery-content-container {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: gray;
   height: 720px;
   width: 100%;
 }
@@ -334,7 +337,7 @@
 .gallery-content-container .gallery-right-side .gallery-box2 .styles-container {
   width: 400px;
   height: 350px;
-  background-color: blue;
+  background-color: orange;
 }
 .gallery-content-container .gallery-right-side .gallery-box2 .styles-container:hover {
   transform: scale(1.02);
