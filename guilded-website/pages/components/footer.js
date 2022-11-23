@@ -1,3 +1,6 @@
+import React from "react";
+import config from "../config.json";
+
 function Footer(){
 
     return (
@@ -30,17 +33,17 @@ function Footer(){
                 <h2>Socials</h2>
  
                 <div className="discord-container">
-                <img src=""></img>
+                <img src={config.discordLogo}></img>
                 <p>Discord</p> 
                 </div>
 
                 <div className="twitter-container">
-                <img src=""></img>
+                <img src={config.twitterLogo}></img>
                 <p>Twitter</p>
                 </div>
 
                 <div className="instagram-container">
-                <img src=""></img>
+                <img src={config.instagramLogo}></img>
                 <p>Instagram</p>
                 </div>
 
@@ -49,10 +52,10 @@ function Footer(){
                     <h2>Stacks</h2>
 
                     <div className="stacks-container-images">
-                    <img src=""></img>
-                    <img src=""></img>
-                    <img src=""></img>
-                    <img src=""></img>
+                    <img src={config.javaScriptLogo}></img>
+                    <img src={config.nextJSLogo}></img>
+                    <img src={config.reactJSLogo}></img>
+                    <img src={config.sassLogo}></img>
                     </div>
                 </div>
  

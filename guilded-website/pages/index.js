@@ -19,7 +19,7 @@ function HomePage() {
       <Gallery />
       <Application />
       <Footer />
-
+  
     </div>
   );
 }
