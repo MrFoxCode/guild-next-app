@@ -1,0 +1,62 @@
+@import "../styles/Variables.modules";
+
+.application-container{
+    @include flexCenter();
+    height: 100vh;
+    background-color: gray;
+    flex-direction: column;
+    h1{
+        font-size: 40px;
+        margin-bottom: 35px;
+    }
+    padding: 150px;
+    
+}
+
+.application-content{
+    width: 100%;
+    @include flexCenter();
+    flex-direction: row;
+    
+
+    .application-left-content{
+        @include flexCenter();
+        width: 800px;
+        height: 700px;
+        background-color: black;
+        flex-direction: column;
+        padding-left: 150px;
+        padding-right: 150px;
+        
+        .application-text-container{
+            h1{
+                font-size: 50px;
+
+            }
+            p{
+                font-size: 20px;
+                margin-bottom: 30px;
+
+            }
+        }
+
+        button{
+            @extend .homeButton;           
+        }
+    }
+
+    .application-right-content{
+        @include flexCenter();
+        width: 800px;
+        height: 700px;
+        background-color: green;
+
+
+        img{
+          width: 780px;
+          height: 680px;
+          background-color: greenyellow;  
+        }
+
+    }
+}

@@ -30,12 +30,18 @@ function Footer(){
                 <h2>Socials</h2>
  
                 <div className="discord-container">
+                <img src=""></img>
+                <p>Discord</p> 
                 </div>
 
                 <div className="twitter-container">
+                <img src=""></img>
+                <p>Twitter</p>
                 </div>
 
                 <div className="instagram-container">
+                <img src=""></img>
+                <p>Instagram</p>
                 </div>
 
                 <div className="stacks-container">
