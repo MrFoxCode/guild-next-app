@@ -4,6 +4,9 @@ function Navbar() {
     return (
         <div className="navbar-container">
 
+
+
+
             <div className="nav-logo-container">            
             
             <img src=""></img>               
@@ -12,10 +15,10 @@ function Navbar() {
             </div>
 
             <div className="nav-sections-container">
-                <a href=" ">Home</a>
-                <a href=" ">About</a>
-                <a href=" ">Gallery</a>
-                <a href=" ">Application</a>             
+                <a href="/">Home</a>
+                <a href="">About</a>
+                <a href="/gallery">Gallery</a>
+                <a href="/">Application</a>             
             </div>
 
             {/* <div className="input-container">
@@ -39,6 +42,12 @@ function Navbar() {
 
         </div>
     );
+
+
+    
+
+
+
 }
 
 export default Navbar;

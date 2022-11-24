@@ -32,20 +32,27 @@ function Footer(){
 
                 <h2>Socials</h2>
  
+                {/* Link to socials and other Pages*/}
+                <a href="https://discord.com" target='_blank'>
                 <div className="discord-container">
                 <img src={config.discordLogo}></img>
-                <p>Discord</p> 
+                <p>Discord</p>
                 </div>
-
+                </a>
+                
+                <a href="https://twitter.com" target='_blank'>     
                 <div className="twitter-container">
                 <img src={config.twitterLogo}></img>
                 <p>Twitter</p>
                 </div>
+                </a>
 
+                <a href="https://instagram.com" target='_blank'>
                 <div className="instagram-container">
                 <img src={config.instagramLogo}></img>
                 <p>Instagram</p>
                 </div>
+                </a>
 
                 <div className="stacks-container">
 
