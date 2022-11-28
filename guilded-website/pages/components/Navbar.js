@@ -9,16 +9,19 @@ function Navbar() {
 
             <div className="nav-logo-container">            
             
-            <img src={config.headLogo}></img>               
-            <h2>Oakleaf Bearers</h2>               
+            <img src={config.footerLogo}></img>               
+            <h2>Oakleaf Bearers</h2>
+                           
             
             </div>
 
             <div className="nav-sections-container">
-                <a href="/">Home</a>
-                <a href="">About</a>
-                <a href="/gallery">Gallery</a>
-                <a href="/">Application</a>             
+                <ul>
+                <li><a href="/">Home</a></li>                
+                <li><a href="">About</a></li>
+                <li><a href="/gallery">Gallery</a></li>
+                <li><a href="/">Application</a></li>
+                </ul>             
             </div>
 
             {/* <div className="input-container">

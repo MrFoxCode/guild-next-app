@@ -3,10 +3,15 @@ $homebgcolor: rgb(44, 44, 44);
 $buttoncolor: #b89358;
 $hoverbutton: #927649;
 
-$homeBG: "";
-$galleryBG: "https://cdn.discordapp.com/attachments/1046815806866083893/1046842259074723850/gallerybgedited.jpg";
-$guildedBG: "https://cdn.discordapp.com/attachments/1046815806866083893/1046840390889775195/applybgedited.jpg";
+//BG for Containers
+$homeBG: "https://cdn.discordapp.com/attachments/1046815806866083893/1046883821439684678/bghome.jpg";
+$homeBGblur: "https://cdn.discordapp.com/attachments/1046815806866083893/1046884744970907648/bghomeblur.jpg";
 
+//BG for Gallery section
+$galleryBG: "https://cdn.discordapp.com/attachments/1046815806866083893/1046883559538954342/gallerybgedited.jpg";
+$guildedBG: "https://cdn.discordapp.com/attachments/1046815806866083893/1046840390889775195/applybgedited.jpg";
+$gearBG: "https://cdn.discordapp.com/attachments/1046815806866083893/1046893327024402541/uniform.jpg";
+$uniformBG: "https://cdn.discordapp.com/attachments/1046815806866083893/1046904682418802819/uniformbgbdo.jpg";
 
 @mixin flexCenter {
     display: flex;
@@ -14,6 +19,7 @@ $guildedBG: "https://cdn.discordapp.com/attachments/1046815806866083893/10468403
     align-items: center;
     text-align: center;
 }
+
 
 .generalButton{
     background-color: $buttoncolor;

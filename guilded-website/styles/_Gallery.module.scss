@@ -33,7 +33,6 @@
     
     .screenshots-container{
         @include flexCenter();
-        filter: brightness(0.9);
         height: 700px;
         width: 500px;
         //background-color: green;
@@ -42,9 +41,8 @@
         background-position: center;
         background-size: cover;
         cursor: pointer;
-        &:hover{
-            
-        filter: brightness(1.5);
+        &:hover{            
+            filter: brightness(1.5);
             transform: scale(1.05);
             transition-duration: 0.5s;
             background-position: right;
@@ -79,11 +77,16 @@
                 @include flexCenter();
                 width: 400px;
                 height: 350px;
-                background-color: rgb(100, 100, 54);
+                background-color: green;
+                background-size: 320%;
+                background-position: top right;
+                background-image: url($uniformBG);
                 &:hover{
                     transform: scale(1.05);
-                    transition-duration: 0.3s;
-                }
+                    transition-duration: 0.5s;
+                    background-position: top;
+                }                
+              
             }
            
         }
@@ -95,24 +98,33 @@
             height: 350px;
 
             .guides-container{
+                @include flexCenter();
                 width: 266px;
                 height: 350px;
-                background-color: yellow;
+                background-color: rgb(146, 146, 53);
                 &:hover{
                     transform: scale(1.05);
                     transition-duration: 0.3s;
                 }
             }
             .gear-container{
+                @include flexCenter();
                 width: 266px;
                 height: 350px;
-                background-color:blue;
+                background-image: url($gearBG);
+                background-size: 175%;
+                background-position: center;
+                background-repeat: no-repeat;
                 &:hover{
                     transform: scale(1.05);
                     transition-duration: 0.3s;
+                    background-position: top;
                 }
+              
+
             }
             .lifeskills-container{
+                @include flexCenter();
                 width: 266px;
                 height: 350px;
                 background-color:red;
