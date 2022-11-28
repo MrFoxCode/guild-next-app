@@ -16,6 +16,7 @@ function Gallery() {
                 {/* Lead to Screenshots Page*/}
                 <a href='/gallery/screenshots'>
                     <div className="screenshots-container">
+                    <h1>Screenshots</h1>
                     </div>
                 </a>
 
@@ -27,10 +28,12 @@ function Gallery() {
 
                         <a href="/gallery/styles">
                             <div className="styles-container">
+                                <h1>Styles</h1>
                             </div>
                         </a>
 
                         <div className="uniform-container">
+                            <h1>Uniform</h1>
                         </div>
                     </div>
                     {/*-------------------------------------------------- */}

@@ -30,6 +30,10 @@
         margin-right: 30px;
         margin-left: 30px; 
         cursor: pointer;
+        &:hover{
+            color: rgb(207, 207, 207);
+
+        }
     }
 }
 
@@ -48,7 +52,7 @@
 .lang-container{
     @include flexCenter();
     right: 0;
-    background-color: white;
+    background-color: gray;
     width: 60px;
     height: 30px;
     color: black;

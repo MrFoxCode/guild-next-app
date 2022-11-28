@@ -8,7 +8,7 @@ function Home(){
             
         <div className="mainpage-text-container">
             <h1>Welcome!</h1>
-            <h3>to the Tittle Tittle Official Page</h3>
+            <h3>to the Oakleaf Bearers Official Page</h3>
             <button>Your Journey Begins Here</button>
         </div>
 

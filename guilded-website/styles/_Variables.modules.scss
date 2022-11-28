@@ -1,7 +1,11 @@
-$navbarcolor: rgb(24, 24, 24);
+$navbarcolor: rgb(12, 12, 12);
 $homebgcolor: rgb(44, 44, 44);
 $buttoncolor: #b89358;
 $hoverbutton: #927649;
+
+$homeBG: "";
+$galleryBG: "https://cdn.discordapp.com/attachments/1046815806866083893/1046842259074723850/gallerybgedited.jpg";
+$guildedBG: "https://cdn.discordapp.com/attachments/1046815806866083893/1046840390889775195/applybgedited.jpg";
 
 
 @mixin flexCenter {

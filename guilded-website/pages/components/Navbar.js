@@ -1,4 +1,4 @@
-//
+import config from "../config.json";
 
 function Navbar() {
     return (
@@ -9,8 +9,8 @@ function Navbar() {
 
             <div className="nav-logo-container">            
             
-            <img src=""></img>               
-            <h2>Tittle Tittle</h2>               
+            <img src={config.headLogo}></img>               
+            <h2>Oakleaf Bearers</h2>               
             
             </div>
 
@@ -24,6 +24,7 @@ function Navbar() {
             {/* <div className="input-container">
                 <input placeholder="Search"></input>
             </div> */}
+            
 
             <div className="buttons-container">
                 <a target= "_blank" href=" " ><button className="join"> Join us now </button></a>

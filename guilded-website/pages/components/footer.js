@@ -17,13 +17,13 @@ function Footer(){
             <div className="footer-content">
 
             <div className="footer-content-image">
-            <img src =""></img>
+            <img src ={config.footerLogo}></img>
             </div>
             
                 <p>
-                Ipsum in ex consectetur nisi labore excepteur nisi cupidatat sit irure.Ipsum in ex consectetur nisi labore excepteur nisi cupidatat sit irure.
-                Ipsum in ex consectetur nisi labore excepteur nisi cupidatat sit irure.Ipsum in ex consectetur nisi labore excepteur nisi cupidatat sit irure.
-                Ipsum in ex consectetur nisi labore excepteur nisi cupidatat sit irure.Ipsum in ex consectetur nisi labore excepteur nisi cupidatat sit irure.
+                The Oakleaf Bearers is a community of players from the MMORPG Black Desert Online, in the South America
+                servers. All visual creation related to the community is property of their respective creators and are not
+                associated to any kind of monetization or any other business related to profitable ways.
                 </p>
             
             </div>
@@ -71,7 +71,7 @@ function Footer(){
         </div>
 
         <div className="all-rights-container">
-            <h4>2022 - Tittle Tittle. All Rights Reserved.</h4>
+            <h4>2022 - Oakleaf Bearers. All Rights Reserved.</h4>
         </div>
 
 

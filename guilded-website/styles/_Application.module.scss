@@ -2,31 +2,36 @@
 
 .application-container{
     @include flexCenter();
+    background-color: $homebgcolor;
+    background-image: url($guildedBG);
+    background-position: center;
     height: 100vh;
-    background-color: gray;
+    width: 100%;
     flex-direction: column;
     h1{
         font-size: 40px;
         margin-bottom: 35px;
     }
-    padding: 150px;
-    
+    padding: 450px;    
 }
 
+
+
 .application-content{
-    width: 100%;
+    height: 100vh;
     @include flexCenter();
     flex-direction: row;
+    
     
 
     .application-left-content{
         @include flexCenter();
-        width: 800px;
+        width: 650px;
         height: 700px;
-        background-color: black;
+        background-color: rgba($color: #000000, $alpha: 0.4);
         flex-direction: column;
-        padding-left: 150px;
-        padding-right: 150px;
+        border-radius: 1em;
+       
         
         .application-text-container{
             h1{
@@ -36,6 +41,8 @@
             p{
                 font-size: 20px;
                 margin-bottom: 30px;
+                padding-left: 50px;
+                padding-right: 50px;
 
             }
         }
@@ -47,15 +54,15 @@
 
     .application-right-content{
         @include flexCenter();
-        width: 800px;
+        width: 650px;
         height: 700px;
-        background-color: green;
+        background-color:" green";
 
 
         img{
-          width: 780px;
-          height: 680px;
-          background-color: greenyellow;  
+          width: 650px;
+          height: 700px;
+          background-color:" greenyellow";  
         }
 
     }

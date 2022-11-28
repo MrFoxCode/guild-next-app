@@ -10,11 +10,12 @@
   font-size: 22px;
   cursor: pointer;
 }
+
 .generalButton:hover, .buttons-container button:hover {
   background-color: #927649;
 }
 
-.homeButton, .mainpage-text-container button {
+.homeButton, .mainpage-text-container button, .application-content .application-left-content button {
   background-color: #b89358;
   height: 80px;
   width: 300px;
@@ -25,7 +26,8 @@
   font-size: 22px;
   cursor: pointer;
 }
-.homeButton:hover, .mainpage-text-container button:hover {
+
+.homeButton:hover, .mainpage-text-container button:hover, .application-content .application-left-content button:hover {
   background-color: #927649;
 }
 
@@ -40,20 +42,34 @@
 
 .navbar-container {
   height: 80px;
-  background-color: rgb(24, 24, 24);
+  background-color: #181818;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .nav-logo-container {
   width: 500px;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
 }
+
 .nav-logo-container img {
   width: 60px;
   height: 60px;
@@ -70,13 +86,23 @@
   cursor: pointer;
 }
 
+.nav-sections-container a:hover {
+  color: #cfcfcf;
+}
+
 .lang-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   right: 0;
-  background-color: white;
+  background-color: gray;
   width: 60px;
   height: 30px;
   color: black;
@@ -94,11 +120,12 @@
   font-size: 22px;
   cursor: pointer;
 }
+
 .generalButton:hover, .buttons-container button:hover {
   background-color: #927649;
 }
 
-.homeButton, .mainpage-text-container button {
+.homeButton, .mainpage-text-container button, .application-content .application-left-content button {
   background-color: #b89358;
   height: 80px;
   width: 300px;
@@ -109,7 +136,8 @@
   font-size: 22px;
   cursor: pointer;
 }
-.homeButton:hover, .mainpage-text-container button:hover {
+
+.homeButton:hover, .mainpage-text-container button:hover, .application-content .application-left-content button:hover {
   background-color: #927649;
 }
 
@@ -123,26 +151,35 @@
 }
 
 .home-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   height: 100vh;
   width: 100%;
-  background-color: rgb(44, 44, 44);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1f1f1f;
   background-size: fill;
   background-position: top;
-  /* background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/10/Black-Desert-Wallpapers-HD-1.jpg");
-   */
 }
 
 .mainpage-text-container h1 {
   font-size: 100px;
   font-weight: bold;
 }
+
 .mainpage-text-container h3 {
   font-size: 25px;
 }
+
 .mainpage-text-container button {
   margin: 60px;
   height: 80px;
@@ -160,11 +197,12 @@
   font-size: 22px;
   cursor: pointer;
 }
+
 .generalButton:hover, .buttons-container button:hover {
   background-color: #927649;
 }
 
-.homeButton, .mainpage-text-container button {
+.homeButton, .mainpage-text-container button, .application-content .application-left-content button {
   background-color: #b89358;
   height: 80px;
   width: 300px;
@@ -175,7 +213,8 @@
   font-size: 22px;
   cursor: pointer;
 }
-.homeButton:hover, .mainpage-text-container button:hover {
+
+.homeButton:hover, .mainpage-text-container button:hover, .application-content .application-left-content button:hover {
   background-color: #927649;
 }
 
@@ -189,49 +228,79 @@
 }
 
 .about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   width: 100%;
   height: 100vh;
-  background-color: rgb(105, 105, 105);
+  background-color: #1f1f1f;
 }
 
 .about-content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
-  flex-direction: row;
-  justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 100%;
-  padding-right: 200px;
-  padding-left: 200px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
+
 .about-content-container .leader-image-container {
   width: 500px;
   height: 600px;
   background-color: blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
 }
+
 .about-content-container .leader-image-container img {
-  background-color: rgb(0, 0, 122);
+  background-color: #00007a;
   width: 400px;
   height: 500px;
 }
+
 .about-content-container .about-text-container {
   width: 700px;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 .about-content-container .about-text-container h3 {
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 20px;
 }
+
 .about-content-container .about-text-container p {
   font-size: 20px;
   margin-bottom: 25px;
@@ -248,11 +317,12 @@
   font-size: 22px;
   cursor: pointer;
 }
+
 .generalButton:hover, .buttons-container button:hover {
   background-color: #927649;
 }
 
-.homeButton, .mainpage-text-container button {
+.homeButton, .mainpage-text-container button, .application-content .application-left-content button {
   background-color: #b89358;
   height: 80px;
   width: 300px;
@@ -263,7 +333,8 @@
   font-size: 22px;
   cursor: pointer;
 }
-.homeButton:hover, .mainpage-text-container button:hover {
+
+.homeButton:hover, .mainpage-text-container button:hover, .application-content .application-left-content button:hover {
   background-color: #927649;
 }
 
@@ -277,104 +348,211 @@
 }
 
 .gallery-container {
+  width: 100%;
   height: 100vh;
-  background-color: rgb(44, 44, 44);
+  background-color: #0c0c0c;
+  position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 500px;
 }
+
 .gallery-container h1 {
   font-size: 40px;
   margin-bottom: 35px;
 }
 
 .gallery-content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   height: 720px;
   width: 100%;
 }
+
 .gallery-content-container div {
   border-radius: 10px;
 }
+
 .gallery-content-container .screenshots-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
   height: 700px;
   width: 500px;
-  background-color: yellowgreen;
+  background-image: url("https://cdn.discordapp.com/attachments/1046815806866083893/1046842259074723850/gallerybgedited.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
 }
+
 .gallery-content-container .screenshots-container:hover {
-  transform: scale(1.02);
-  transition-duration: 0.3s;
+  -webkit-filter: brightness(1.5);
+          filter: brightness(1.5);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  background-position: right;
 }
+
 .gallery-content-container .gallery-right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   height: 700px;
   width: 800px;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 .gallery-content-container .gallery-right-side .gallery-box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   width: 800px;
   height: 350px;
 }
-.gallery-content-container .gallery-right-side .gallery-box2 .uniform-container {
-  width: 400px;
-  height: 350px;
-  background-color: yellow;
-}
-.gallery-content-container .gallery-right-side .gallery-box2 .uniform-container:hover {
-  transform: scale(1.02);
-  transition-duration: 0.3s;
-}
+
 .gallery-content-container .gallery-right-side .gallery-box2 .styles-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
   width: 400px;
   height: 350px;
   background-color: orange;
 }
+
 .gallery-content-container .gallery-right-side .gallery-box2 .styles-container:hover {
-  transform: scale(1.02);
-  transition-duration: 0.3s;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
-.gallery-content-container .gallery-right-side .gallery-box3 {
+
+.gallery-content-container .gallery-right-side .gallery-box2 .uniform-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 350px;
+  background-color: #646436;
+}
+
+.gallery-content-container .gallery-right-side .gallery-box2 .uniform-container:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.gallery-content-container .gallery-right-side .gallery-box3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   width: 800px;
   height: 350px;
 }
+
 .gallery-content-container .gallery-right-side .gallery-box3 .guides-container {
   width: 266px;
   height: 350px;
   background-color: yellow;
 }
+
 .gallery-content-container .gallery-right-side .gallery-box3 .guides-container:hover {
-  transform: scale(1.02);
-  transition-duration: 0.3s;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
+
 .gallery-content-container .gallery-right-side .gallery-box3 .gear-container {
   width: 266px;
   height: 350px;
   background-color: blue;
 }
+
 .gallery-content-container .gallery-right-side .gallery-box3 .gear-container:hover {
-  transform: scale(1.02);
-  transition-duration: 0.3s;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
+
 .gallery-content-container .gallery-right-side .gallery-box3 .lifeskills-container {
   width: 266px;
   height: 350px;
   background-color: red;
 }
+
 .gallery-content-container .gallery-right-side .gallery-box3 .lifeskills-container:hover {
-  transform: scale(1.02);
-  transition-duration: 0.3s;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .generalButton, .buttons-container button {
@@ -388,11 +566,12 @@
   font-size: 22px;
   cursor: pointer;
 }
+
 .generalButton:hover, .buttons-container button:hover {
   background-color: #927649;
 }
 
-.homeButton, .mainpage-text-container button {
+.homeButton, .mainpage-text-container button, .application-content .application-left-content button {
   background-color: #b89358;
   height: 80px;
   width: 300px;
@@ -403,7 +582,149 @@
   font-size: 22px;
   cursor: pointer;
 }
-.homeButton:hover, .mainpage-text-container button:hover {
+
+.homeButton:hover, .mainpage-text-container button:hover, .application-content .application-left-content button:hover {
+  background-color: #927649;
+}
+
+.searchbar, .input-container input {
+  background-color: white;
+  margin: 10px;
+  width: 250px;
+  height: 25px;
+  border: 0;
+  border-radius: 2px;
+}
+
+.application-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-color: #2c2c2c;
+  background-image: url("https://cdn.discordapp.com/attachments/1046815806866083893/1046840390889775195/applybgedited.jpg");
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 450px;
+}
+
+.application-container h1 {
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+
+.application-content {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.application-content .application-left-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 650px;
+  height: 700px;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 1em;
+}
+
+.application-content .application-left-content .application-text-container h1 {
+  font-size: 50px;
+}
+
+.application-content .application-left-content .application-text-container p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.application-content .application-right-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 650px;
+  height: 700px;
+  background-color: " green";
+}
+
+.application-content .application-right-content img {
+  width: 650px;
+  height: 700px;
+  background-color: " greenyellow";
+}
+
+.generalButton, .buttons-container button {
+  background-color: #b89358;
+  width: 180px;
+  height: 40px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.generalButton:hover, .buttons-container button:hover {
+  background-color: #927649;
+}
+
+.homeButton, .mainpage-text-container button, .application-content .application-left-content button {
+  background-color: #b89358;
+  height: 80px;
+  width: 300px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.homeButton:hover, .mainpage-text-container button:hover, .application-content .application-left-content button:hover {
   background-color: #927649;
 }
 
@@ -417,105 +738,195 @@
 }
 
 .footer-container {
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   padding: 0;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 100%;
   height: 500px;
-  background-color: rgb(24, 24, 24);
+  background-color: #0c0c0c;
 }
 
 .top-footer-container {
   margin: 0;
-  background-color: #ad8b53;
+  background-color: #0c0c0c;
   width: 100%;
   height: 20px;
 }
 
 .footer-content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   width: 100%;
   height: 455px;
 }
+
 .footer-content-container .footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   height: 455px;
   width: 80%;
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .footer-content-container .footer-content p {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   width: 75%;
   padding: 10px;
   font-size: 20px;
   text-align: start;
 }
+
 .footer-content-container .footer-content .footer-content-image {
   width: 15%;
 }
+
 .footer-content-container .footer-content .footer-content-image img {
-  background-color: blue;
   border: 0;
   width: 150px;
   height: 150px;
 }
+
 .footer-content-container .footer-content-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
-  background-color: red;
+  background-color: #0c0c0c;
   height: 455px;
   width: 20%;
-  flex-direction: column;
-  justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
+
 .footer-content-container .footer-content-socials .discord-container, .footer-content-container .footer-content-socials .twitter-container, .footer-content-container .footer-content-socials .instagram-container {
-  background-color: green;
-  width: 300px;
-  height: 50px;
-}
-.footer-content-container .footer-content-socials .stacks-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  width: 20%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 20px;
+  margin-bottom: -30px;
+  cursor: pointer;
+  text-align: start;
+  font-size: 25px;
+  font-weight: 800;
+  background-color: #0c0c0c;
+  width: 220px;
+  height: 40px;
 }
+
+.footer-content-container .footer-content-socials .discord-container p, .footer-content-container .footer-content-socials .twitter-container p, .footer-content-container .footer-content-socials .instagram-container p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: start;
+}
+
+.footer-content-container .footer-content-socials .discord-container img, .footer-content-container .footer-content-socials .twitter-container img, .footer-content-container .footer-content-socials .instagram-container img {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+}
+
+.footer-content-container .footer-content-socials .stacks-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 20%;
+  margin-top: 35px;
+}
+
 .footer-content-container .footer-content-socials .stacks-container .stacks-container-images {
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 300px;
   height: 50px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
 .footer-content-container .footer-content-socials .stacks-container .stacks-container-images img {
-  background-color: greenyellow;
   width: 40px;
   height: 40px;
-  margin: 15px;
+  margin: 10px;
 }
 
 .all-rights-container {
-  background-color: #ad8b53;
+  background-color: #0c0c0c;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   width: 100%;
   height: 25px;
@@ -535,9 +946,11 @@ a {
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -548,4 +961,5 @@ a {
     color: white;
     background: black;
   }
-} /*# sourceMappingURL=globals.css.map */ /*# sourceMappingURL=globals.css.map *//*# sourceMappingURL=globals.css.map */
+}
+/*# sourceMappingURL=globals.css.map */
