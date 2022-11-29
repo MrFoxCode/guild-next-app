@@ -2,16 +2,24 @@ $navbarcolor: rgb(12, 12, 12);
 $homebgcolor: rgb(44, 44, 44);
 $buttoncolor: #b89358;
 $hoverbutton: #927649;
+$gradiantbutton: linear-gradient(#755f3b, #b89358);
 
 //BG for Containers
 $homeBG: "https://cdn.discordapp.com/attachments/1046815806866083893/1046883821439684678/bghome.jpg";
 $homeBGblur: "https://cdn.discordapp.com/attachments/1046815806866083893/1046884744970907648/bghomeblur.jpg";
+$aboutBG: "https://wallpapercave.com/wp/wp2344001.jpg";
+$aboutBG2: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/74466fdb-f89f-45e1-9d91-74653a5291d7/d9jdzmk-acdb8e32-0f50-48c7-a9a2-cb51e45c10bd.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc0NDY2ZmRiLWY4OWYtNDVlMS05ZDkxLTc0NjUzYTUyOTFkN1wvZDlqZHptay1hY2RiOGUzMi0wZjUwLTQ4YzctYTlhMi1jYjUxZTQ1YzEwYmQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.UJR_l0dDpX6QGfytGOPPuUvJScWXiMOTl4wntUdBRqI";
+
 
 //BG for Gallery section
-$galleryBG: "https://cdn.discordapp.com/attachments/1046815806866083893/1046883559538954342/gallerybgedited.jpg";
+$screenshotBG: "https://cdn.discordapp.com/attachments/1046815806866083893/1046883559538954342/gallerybgedited.jpg";
 $guildedBG: "https://cdn.discordapp.com/attachments/1046815806866083893/1046840390889775195/applybgedited.jpg";
 $gearBG: "https://cdn.discordapp.com/attachments/1046815806866083893/1046893327024402541/uniform.jpg";
 $uniformBG: "https://cdn.discordapp.com/attachments/1046815806866083893/1046904682418802819/uniformbgbdo.jpg";
+$stylesBG: "https://i1.wp.com/mundodrix.com.br/site/wp-content/uploads/2019/06/2019-06-14_195609049.jpg?fit=1608%2C908&ssl=1";
+$guideBG: "https://mmorpgbr.com.br/wp-content/uploads/2021/04/1650f2c26116057cef9e772436dfbeb13be62fac.jpg";
+$lifeskillsBG: "https://s1.pearlcdn.com/TR/Upload/WIKI/8006dfe6aa820171105113140406.jpg";
+
 
 @mixin flexCenter {
     display: flex;
@@ -22,7 +30,7 @@ $uniformBG: "https://cdn.discordapp.com/attachments/1046815806866083893/10469046
 
 
 .generalButton{
-    background-color: $buttoncolor;
+    background: $buttoncolor;
     width: 180px;
     height: 40px;
     border: 0;

@@ -21,6 +21,14 @@
         border: 0;
     }
     @include flexCenter(); 
+
+    h2{
+        font-size: 25px;
+    }
+    h5{
+        display: none;
+        font-size: 10px;
+    }
 }
 
 

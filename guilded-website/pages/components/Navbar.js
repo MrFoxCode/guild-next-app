@@ -9,8 +9,14 @@ function Navbar() {
 
             <div className="nav-logo-container">            
             
-            <img src={config.footerLogo}></img>               
+            <img src={config.footerLogo}></img>
+            <div>
+            
             <h2>Oakleaf Bearers</h2>
+            {/* <h5>The way of the Silver Oakleaf</h5> */}
+            
+            </div>               
+            
                            
             
             </div>
