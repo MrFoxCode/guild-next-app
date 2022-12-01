@@ -356,7 +356,8 @@
 }
 
 .about-content-container .leader-image-container img {
-  width: 500px;
+  opacity: 0.6;
+  width: 600px;
   height: 600px;
 }
 
