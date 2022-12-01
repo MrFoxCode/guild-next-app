@@ -19,9 +19,7 @@ function HomePage() {
       <title>Oakleaf Bearers</title>
       <link rel="icon" type="image/x-icon" href={config.headLogo}></link>     
       </Head>
-
-
-
+      
       
       <Navbar />
       <Home />

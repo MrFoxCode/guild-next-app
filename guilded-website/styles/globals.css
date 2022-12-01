@@ -31,6 +31,22 @@
   background-color: #927649;
 }
 
+.discordButton, .application-content .application-left-content .discord-button {
+  background-color: #6b81cf;
+  height: 80px;
+  width: 300px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.discordButton:hover, .application-content .application-left-content .discord-button:hover {
+  background-color: #5465a3;
+}
+
 .searchbar, .input-container input {
   background-color: white;
   margin: 10px;
@@ -164,6 +180,22 @@
   background-color: #927649;
 }
 
+.discordButton, .application-content .application-left-content .discord-button {
+  background-color: #6b81cf;
+  height: 80px;
+  width: 300px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.discordButton:hover, .application-content .application-left-content .discord-button:hover {
+  background-color: #5465a3;
+}
+
 .searchbar, .input-container input {
   background-color: white;
   margin: 10px;
@@ -242,6 +274,22 @@
   background-color: #927649;
 }
 
+.discordButton, .application-content .application-left-content .discord-button {
+  background-color: #6b81cf;
+  height: 80px;
+  width: 300px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.discordButton:hover, .application-content .application-left-content .discord-button:hover {
+  background-color: #5465a3;
+}
+
 .searchbar, .input-container input {
   background-color: white;
   margin: 10px;
@@ -264,7 +312,7 @@
   text-align: center;
   width: 100%;
   height: 100vh;
-  background-image: url("https://wallpapercave.com/wp/wp2344001.jpg");
+  background-image: url("https://cdn.discordapp.com/attachments/1046815806866083893/1047937749010886676/aboutbg.jpg");
   background-size: 125%;
   background-position: center;
   background-repeat: no-repeat;
@@ -286,8 +334,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   width: 100%;
   padding-right: 100px;
   padding-left: 100px;
@@ -296,7 +342,7 @@
 .about-content-container .leader-image-container {
   width: 500px;
   height: 600px;
-  background-color: blue;
+  margin-right: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -310,7 +356,6 @@
 }
 
 .about-content-container .leader-image-container img {
-  background-color: #00007a;
   width: 500px;
   height: 600px;
 }
@@ -386,6 +431,22 @@
   background-color: #927649;
 }
 
+.discordButton, .application-content .application-left-content .discord-button {
+  background-color: #6b81cf;
+  height: 80px;
+  width: 300px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.discordButton:hover, .application-content .application-left-content .discord-button:hover {
+  background-color: #5465a3;
+}
+
 .searchbar, .input-container input {
   background-color: white;
   margin: 10px;
@@ -399,7 +460,7 @@
   width: 100%;
   height: 100vh;
   background-color: #0c0c0c;
-  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/74466fdb-f89f-45e1-9d91-74653a5291d7/d9jdzmk-acdb8e32-0f50-48c7-a9a2-cb51e45c10bd.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc0NDY2ZmRiLWY4OWYtNDVlMS05ZDkxLTc0NjUzYTUyOTFkN1wvZDlqZHptay1hY2RiOGUzMi0wZjUwLTQ4YzctYTlhMi1jYjUxZTQ1YzEwYmQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.UJR_l0dDpX6QGfytGOPPuUvJScWXiMOTl4wntUdBRqI");
+  background-image: url("https://cdn.discordapp.com/attachments/1046815806866083893/1047938279342866523/gallerybg.jpg");
   background-position: right;
   background-size: 150%;
   background-repeat: no-repeat;
@@ -423,7 +484,12 @@
 .gallery-container h1 {
   font-size: 40px;
   margin-bottom: 35px;
-  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.gallery-container h2 {
+  font-size: 35px;
+  margin-bottom: 35px;
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   padding-left: 25px;
   padding-right: 25px;
@@ -695,6 +761,22 @@
   background-color: #927649;
 }
 
+.discordButton, .application-content .application-left-content .discord-button {
+  background-color: #6b81cf;
+  height: 80px;
+  width: 300px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.discordButton:hover, .application-content .application-left-content .discord-button:hover {
+  background-color: #5465a3;
+}
+
 .searchbar, .input-container input {
   background-color: white;
   margin: 10px;
@@ -761,7 +843,7 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  width: 650px;
+  width: 700px;
   height: 700px;
   background-color: rgba(0, 0, 0, 0.4);
   -webkit-box-orient: vertical;
@@ -769,6 +851,12 @@
       -ms-flex-direction: column;
           flex-direction: column;
   border-radius: 1em;
+  margin-right: 10px;
+}
+
+.application-content .application-left-content img {
+  width: 100px;
+  height: 100px;
 }
 
 .application-content .application-left-content .application-text-container h1 {
@@ -782,6 +870,31 @@
   padding-right: 50px;
 }
 
+.application-content .application-left-content .application-text-container .masterNames {
+  font-weight: 800;
+}
+
+.application-content .application-left-content .aplly-buttons-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.application-content .application-left-content button {
+  margin: 5px;
+}
+
 .application-content .application-right-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -793,15 +906,47 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  width: 650px;
+  width: 700px;
   height: 700px;
-  background-color: " green";
+  border-radius: 1em;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-left: 10px;
 }
 
 .application-content .application-right-content img {
+  display: none;
+  border-radius: 1em;
   width: 650px;
   height: 700px;
-  background-color: " greenyellow";
+}
+
+.application-content .application-right-content .application-text-container2 h1 {
+  font-size: 50px;
+}
+
+.application-content .application-right-content .application-text-container2 p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.application-content .application-right-content .application-text-container2 .requirements-container {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.application-content .application-right-content .application-text-container2 li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: start;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.application-content .application-right-content .application-text-container2 .masterNames {
+  font-weight: 800;
 }
 
 .generalButton, .buttons-container button {
@@ -834,6 +979,22 @@
 
 .homeButton:hover, .mainpage-text-container button:hover, .application-content .application-left-content button:hover {
   background-color: #927649;
+}
+
+.discordButton, .application-content .application-left-content .discord-button {
+  background-color: #6b81cf;
+  height: 80px;
+  width: 300px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.discordButton:hover, .application-content .application-left-content .discord-button:hover {
+  background-color: #5465a3;
 }
 
 .searchbar, .input-container input {

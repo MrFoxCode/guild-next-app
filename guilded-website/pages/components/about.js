@@ -1,3 +1,5 @@
+import config from "../config.json";
+
 function About(){
 
     return(
@@ -6,11 +8,11 @@ function About(){
         <div className="about-content-container">
             
             <div className="leader-image-container">
-                <img src=""></img>
+                <img src={config.founderPic}></img>
             </div>
 
             <div className="about-text-container">
-                <h3>The Oakleafs Bearers</h3>
+                <h3>The Oakleaf Bearers</h3>
                 <p>
                 The <b>Oakleaf Bearers</b> is a Guild from <b>Black Desert Online</b> founded by the player <b>"Vulpes"</b>.                                        
                 
@@ -42,7 +44,7 @@ function About(){
             <h2>Our Main Goal</h2>
                 <p>
                 Besides building a healthy and respectful community, We also have as goal to be a great and
-                inclusive guild from the South America servers. But the most importan, is to be a community 
+                inclusive guild from the South America servers. But the most important thing, is to be a community 
                 that people really feels comfortable to be part of. So be kind and generous to your mates, brothers
                 and sisters, <b>in game and outside</b>.                
                 </p>

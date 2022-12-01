@@ -16,7 +16,7 @@ function Gallery() {
                 {/* Lead to Screenshots Page*/}
                 <a href='/gallery/screenshots'>
                     <div className="screenshots-container">
-                        <h1>Screenshots</h1>
+                        <h2>Screenshots</h2>
                     </div>
                 </a>
 
@@ -28,33 +28,38 @@ function Gallery() {
 
                         <a href="/gallery/styles">
                             <div className="styles-container">
-                                <h1>Styles</h1>
+                                <h2>Styles</h2>
                             </div>
                         </a>
 
                         <a href="/">
                             <div className="uniform-container">
-                                <h1>Uniform</h1>
+                                <h2>Uniform</h2>
                             </div>
                         </a>
-                        
+
                     </div>
                     {/*-------------------------------------------------- */}
 
 
                     <div className="gallery-box3">
+                        <a href="/">
+                            <div className="guides-container">
+                                <h2>Guides</h2>
+                            </div>
+                        </a>
 
-                        <div className="guides-container">
-                            <h1>Guides</h1>
-                        </div>
+                        <a href="/">
+                            <div className="gear-container">
+                                <h2>Gear</h2>
+                            </div>
+                        </a>
 
-                        <div className="gear-container">
-                            <h1>Gear</h1>
-                        </div>
-
-                        <div className="lifeskills-container">
-                            <h1>Lifeskills</h1>
-                        </div>
+                        <a href="/">
+                            <div className="lifeskills-container">
+                                <h2>Lifeskills</h2>
+                            </div>
+                        </a>
 
                     </div>
 
