@@ -10,8 +10,7 @@
     background-size: 150%;
     background-repeat: no-repeat;
     @include flexCenter();
-    flex-direction: column;
-    
+    flex-direction: column;    
     padding: 500px;
 
     h1{
@@ -48,12 +47,13 @@
         width: 500px;
         //background-color: green;
         background-image: url($screenshotBG);
+        
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         cursor: pointer;
         &:hover{            
-            filter: brightness(1.5);
+            filter: brightness(1.5);            
             transform: scale(1.05);
             transition-duration: 0.5s;
             background-position: right;
@@ -87,7 +87,7 @@
                     transform: scale(1.05);
                     transition-duration: 0.3s;
                     background-position: center;
-                    background-size: 170%;
+                    background-size: 177%;
                     
                 }
             }
@@ -167,5 +167,69 @@
     }
 
 
+
+}
+
+
+//RESPONSIVE SCREEN 1280 X 720
+@media screen and (max-width: 1280px){
+  .gallery-container{
+    background-size: cover;
+    
+  }
+
+  .gallery-content-container{
+    width: 1200px;
+
+    .screenshots-container{
+        height: 600px;
+        width: 400px;
+     
+    }
+
+    .gallery-right-side{
+        height: 600px;
+        width: 700px;
+
+
+        .gallery-box2{
+            width: 700px;
+            height: 300px;
+
+            .styles-container{
+                width: 350px;
+                height: 300px;
+            }
+            .uniform-container{
+                width: 350px;
+                height: 300px;
+            }
+        }
+
+        .gallery-box3{
+            width: 700px;
+            height: 300px;
+
+            .guides-container{
+                width: 233px;
+                height: 300px;
+                background-size: 300%;
+            }
+            .gear-container{
+                width: 233px;
+                height: 300px;
+            }
+
+            .lifeskills-container{
+                width: 233px;
+                height: 300px;
+            
+            }
+        }
+    }
+
+
+    
+  }
 
 }

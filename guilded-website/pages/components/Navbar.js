@@ -6,21 +6,17 @@ function Navbar() {
 
 
 
-
-            <div className="nav-logo-container">            
+            <div className="nav-logo-container">
+                       
             
             <img src={config.footerLogo}></img>
-            <div>
-            
+            <div>            
             <h2>Oakleaf Bearers</h2>
-            {/* <h5>The way of the Silver Oakleaf</h5> */}
-            
+            {/* <h5>The way of the Silver Oakleaf</h5> */}            
             </div>               
-            
-                           
-            
+           
             </div>
-
+            
             <div className="nav-sections-container">
                 <ul>
                 <li><a href="/">Home</a></li>                

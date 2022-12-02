@@ -85,3 +85,16 @@ $founder2BG: "";
     border: 0;
     border-radius: 2px;
 }
+
+@media screen and (max-width: 1280px){
+
+    .discordButton{
+        height: 70px;
+        width: 280px;
+    }
+    .homeButton{
+        height: 70px;
+        width: 280px;
+    
+    }
+}

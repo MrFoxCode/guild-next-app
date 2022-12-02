@@ -18,7 +18,7 @@ function Application() {
                     
                     <div className="application-text-container">
                         <img src={config.footerLogo}></img>
-                        <h1>Becoming an Oakleaf</h1>
+                        <h2>Becoming an Oakleaf</h2>
                         <p>
                           In order to join the guild, you'll need to be interviewed in-game or on Discord by
                           one of our <b>Oakleaf Masters</b>.
@@ -47,7 +47,7 @@ function Application() {
                     <img src=""></img>
                     <div className="application-text-container2">
                         <img src={config.footerLogo}></img>
-                        <h1>Requirements</h1>                                              
+                        <h2>Requirements</h2>                                              
                         <p>
                           Although we don't have any requirements related to your progress in-game, We have some
                           requirements needed, related to conduct in order to join the <b>Oakleaf Bearers</b>.

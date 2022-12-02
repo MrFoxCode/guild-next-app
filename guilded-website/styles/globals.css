@@ -56,6 +56,17 @@
   border-radius: 2px;
 }
 
+@media screen and (max-width: 1280px) {
+  .discordButton, .application-content .application-left-content .discord-button {
+    height: 70px;
+    width: 280px;
+  }
+  .homeButton, .mainpage-text-container button, .application-content .application-left-content button {
+    height: 70px;
+    width: 280px;
+  }
+}
+
 .navbar-container {
   height: 80px;
   width: 100%;
@@ -73,9 +84,6 @@
 
 .nav-logo-container {
   width: 500px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -148,6 +156,35 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 1280px) {
+  .nav-sections-container ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 100px;
+  }
+  .nav-sections-container li {
+    list-style: none;
+    text-decoration: none;
+  }
+  .nav-sections-container li a {
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+  }
+  .nav-sections-container li a:hover {
+    color: #cfcfcf;
+  }
+  .buttons-container {
+    margin-right: 20px;
+  }
+  .lang-container {
+    margin-right: 20px;
+  }
+}
+
 .generalButton, .buttons-container button {
   background: #b89358;
   width: 180px;
@@ -203,6 +240,17 @@
   height: 25px;
   border: 0;
   border-radius: 2px;
+}
+
+@media screen and (max-width: 1280px) {
+  .discordButton, .application-content .application-left-content .discord-button {
+    height: 70px;
+    width: 280px;
+  }
+  .homeButton, .mainpage-text-container button, .application-content .application-left-content button {
+    height: 70px;
+    width: 280px;
+  }
 }
 
 .home-container {
@@ -299,6 +347,17 @@
   border-radius: 2px;
 }
 
+@media screen and (max-width: 1280px) {
+  .discordButton, .application-content .application-left-content .discord-button {
+    height: 70px;
+    width: 280px;
+  }
+  .homeButton, .mainpage-text-container button, .application-content .application-left-content button {
+    height: 70px;
+    width: 280px;
+  }
+}
+
 .about-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -311,9 +370,9 @@
           align-items: center;
   text-align: center;
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   background-image: url("https://cdn.discordapp.com/attachments/1046815806866083893/1047937749010886676/aboutbg.jpg");
-  background-size: 125%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #1f1f1f;
@@ -400,6 +459,13 @@
           transition-duration: 0.3s;
 }
 
+@media screen and (max-width: 1280px) {
+  .about-container {
+    height: 180vh;
+    background-size: cover;
+  }
+}
+
 .generalButton, .buttons-container button {
   background: #b89358;
   width: 180px;
@@ -455,6 +521,17 @@
   height: 25px;
   border: 0;
   border-radius: 2px;
+}
+
+@media screen and (max-width: 1280px) {
+  .discordButton, .application-content .application-left-content .discord-button {
+    height: 70px;
+    width: 280px;
+  }
+  .homeButton, .mainpage-text-container button, .application-content .application-left-content button {
+    height: 70px;
+    width: 280px;
+  }
 }
 
 .gallery-container {
@@ -604,7 +681,7 @@
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
   background-position: center;
-  background-size: 170%;
+  background-size: 177%;
 }
 
 .gallery-content-container .gallery-right-side .gallery-box2 .uniform-container {
@@ -730,6 +807,52 @@
   background-position: bottom center;
 }
 
+@media screen and (max-width: 1280px) {
+  .gallery-container {
+    background-size: cover;
+  }
+  .gallery-content-container {
+    width: 1200px;
+  }
+  .gallery-content-container .screenshots-container {
+    height: 600px;
+    width: 400px;
+  }
+  .gallery-content-container .gallery-right-side {
+    height: 600px;
+    width: 700px;
+  }
+  .gallery-content-container .gallery-right-side .gallery-box2 {
+    width: 700px;
+    height: 300px;
+  }
+  .gallery-content-container .gallery-right-side .gallery-box2 .styles-container {
+    width: 350px;
+    height: 300px;
+  }
+  .gallery-content-container .gallery-right-side .gallery-box2 .uniform-container {
+    width: 350px;
+    height: 300px;
+  }
+  .gallery-content-container .gallery-right-side .gallery-box3 {
+    width: 700px;
+    height: 300px;
+  }
+  .gallery-content-container .gallery-right-side .gallery-box3 .guides-container {
+    width: 233px;
+    height: 300px;
+    background-size: 300%;
+  }
+  .gallery-content-container .gallery-right-side .gallery-box3 .gear-container {
+    width: 233px;
+    height: 300px;
+  }
+  .gallery-content-container .gallery-right-side .gallery-box3 .lifeskills-container {
+    width: 233px;
+    height: 300px;
+  }
+}
+
 .generalButton, .buttons-container button {
   background: #b89358;
   width: 180px;
@@ -785,6 +908,17 @@
   height: 25px;
   border: 0;
   border-radius: 2px;
+}
+
+@media screen and (max-width: 1280px) {
+  .discordButton, .application-content .application-left-content .discord-button {
+    height: 70px;
+    width: 280px;
+  }
+  .homeButton, .mainpage-text-container button, .application-content .application-left-content button {
+    height: 70px;
+    width: 280px;
+  }
 }
 
 .application-container {
@@ -860,8 +994,9 @@
   height: 100px;
 }
 
-.application-content .application-left-content .application-text-container h1 {
+.application-content .application-left-content .application-text-container h2 {
   font-size: 50px;
+  margin-bottom: 30px;
 }
 
 .application-content .application-left-content .application-text-container p {
@@ -921,8 +1056,9 @@
   height: 700px;
 }
 
-.application-content .application-right-content .application-text-container2 h1 {
+.application-content .application-right-content .application-text-container2 h2 {
   font-size: 50px;
+  margin-bottom: 30px;
 }
 
 .application-content .application-right-content .application-text-container2 p {
@@ -948,6 +1084,27 @@
 
 .application-content .application-right-content .application-text-container2 .masterNames {
   font-weight: 800;
+}
+
+@media screen and (max-width: 1280px) {
+  .application-container {
+    background-repeat: no-repeat;
+  }
+  .application-container h1 {
+    margin-bottom: 100px;
+  }
+  .application-container .application-left-content {
+    width: 600px;
+    height: 700px;
+  }
+  .application-container .application-left-content img {
+    width: 90px;
+    height: 90px;
+  }
+  .application-container .application-right-content {
+    width: 600px;
+    height: 700px;
+  }
 }
 
 .generalButton, .buttons-container button {
@@ -1005,6 +1162,17 @@
   height: 25px;
   border: 0;
   border-radius: 2px;
+}
+
+@media screen and (max-width: 1280px) {
+  .discordButton, .application-content .application-left-content .discord-button {
+    height: 70px;
+    width: 280px;
+  }
+  .homeButton, .mainpage-text-container button, .application-content .application-left-content button {
+    height: 70px;
+    width: 280px;
+  }
 }
 
 .footer-container {
@@ -1200,6 +1368,11 @@
   text-align: center;
   width: 100%;
   height: 25px;
+}
+
+.all-rights-container h4 {
+  font-size: 15px;
+  font-weight: 500;
 }
 
 html,

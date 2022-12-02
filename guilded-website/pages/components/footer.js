@@ -71,7 +71,7 @@ function Footer(){
         </div>
 
         <div className="all-rights-container">
-            <h4>2022 - Oakleaf Bearers. All Rights Reserved.</h4>
+            <h4>© 2022 Oakleaf Bearers. All Rights Reserved. This website is not affiliated with Kakao Games or Pearl Abyss.</h4>
         </div>
 
 
