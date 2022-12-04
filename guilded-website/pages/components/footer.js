@@ -33,7 +33,7 @@ function Footer(){
                 <h2>Socials</h2>
  
                 {/* Link to socials and other Pages*/}
-                <a href="https://discord.com" target='_blank'>
+                <a href={config.discordInvite} target='_blank'>
                 <div className="discord-container">
                 <img src={config.discordLogo}></img>
                 <p>Discord</p>

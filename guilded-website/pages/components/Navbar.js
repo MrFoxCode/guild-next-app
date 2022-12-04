@@ -9,16 +9,18 @@ function Navbar() {
 
         
         <div className="navbar-container">
-
-            <div className="nav-logo-container">
             
-
+            <div className="nav-logo-container">
+            <a href = "/">
             <img src={config.footerLogo}></img>
-            <div>            
+            </a>
+            <div>
+            <a href="/">                
             <h2>Oakleaf Bearers</h2>
             {/* <h5>The way of the Silver Oakleaf</h5> */}            
+            </a>
             </div>               
-           
+            
             </div>
             
             <div className="nav-sections-container">
