@@ -3,7 +3,7 @@ import config from "../config.json";
 function About(){
 
     return(
-        <div className="about-container" id="aboutSection">
+        <div className="about-container" id="aboutS">
 
         <div className="about-content-container">
             
@@ -20,6 +20,7 @@ function About(){
             
             <div>
                 <h2>Our Main Activities</h2>
+                
                 <li>
                 <b>Lore and Questing</b> - Black Desert is a vast game, but the Lore may be vague for some players
                 , so We would like to build a community that get to know a lot about the quests and the game lore.

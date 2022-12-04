@@ -8,40 +8,33 @@ import Application from './components/application';
 import Footer from './components/footer';
 import config from "./config.json";
 
+//==============================
 
 function HomePage() {
 
-//=============================
-// Scroll to Section Function
-//=============================
-
-
-
-
-//=============================
   return (
+
 
     <div>
 
       <Head>
-      <title>Oakleaf Bearers</title>
-      <link rel="icon" type="image/x-icon" href={config.headLogo}></link>
+        <title>Oakleaf Bearers</title>
+        <link rel="icon" type="image/x-icon" href={config.headLogo}></link>
       </Head>
-    
-      <Navbar />
-      <Home id ="homeS" />
-      <About id ="aboutS" />
-      <Gallery id ="galleryS" />
-      <Application id ="applicationS" />
-      <Footer />
 
+      <Navbar />
+      <Home />
+      <About />
+      <Gallery />
+      <Application />
+      <Footer />
 
     </div>
   );
 
 
+
+
 }
-
-
 
 export default HomePage

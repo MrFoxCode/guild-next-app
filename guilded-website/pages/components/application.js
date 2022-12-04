@@ -6,11 +6,9 @@ function Application() {
 
 
     return (
-        <div className="application-container" id="applicationSection">
+        <div className="application-container" id="applicationS">
             <h1>Application</h1>
-
-
-
+            
             <div className="application-content">
 
                 <div className="application-left-content">

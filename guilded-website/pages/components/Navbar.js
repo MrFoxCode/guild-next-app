@@ -3,7 +3,9 @@ import { Link } from "react-scroll";
 
 
 function Navbar() {
+
     return (
+        
 
         
         <div className="navbar-container">
@@ -20,11 +22,12 @@ function Navbar() {
             </div>
             
             <div className="nav-sections-container">
+                
                 <ul>
-                <li><a id = 'homeRef'>Home</a></li>                
-                <li><a id = 'aboutRef'>About</a></li>
-                <li><a id = 'galleryRef'>Gallery</a></li>
-                <li><a id = 'applicationRef'>Application</a></li>
+                <li><Link to = "homeS" smooth={true} duration={300} id = 'homeRef'>Home</Link></li>                
+                <li><Link to = "aboutS" smooth={true} duration={300} id = 'aboutRef'>About</Link></li>
+                <li><Link to = "galleryS" smooth={true} duration={300} id = 'galleryRef'>Gallery</Link></li>
+                <li><Link to = "applicationS" smooth={true} duration={300} id = 'applicationRef'>Application</Link></li>
                 </ul>             
             </div>
 
@@ -34,7 +37,7 @@ function Navbar() {
             
 
             <div className="buttons-container">
-                <a target= "_blank" href=" " ><button className="join"> Join us now </button></a>
+                <Link to = "applicationS" smooth={true} duration={300} target= "_blank" href=" " ><button className="join"> Join us now </button></Link>
                 {/* <button className="group" > group info </button> */}
             </div>
 
