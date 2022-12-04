@@ -1,14 +1,16 @@
 import config from "../config.json";
+import { Link } from "react-scroll";
+
 
 function Navbar() {
     return (
+
+        
         <div className="navbar-container">
 
-
-
             <div className="nav-logo-container">
-                       
             
+
             <img src={config.footerLogo}></img>
             <div>            
             <h2>Oakleaf Bearers</h2>
@@ -19,10 +21,10 @@ function Navbar() {
             
             <div className="nav-sections-container">
                 <ul>
-                <li><a href="/">Home</a></li>                
-                <li><a href="">About</a></li>
-                <li><a href="/gallery">Gallery</a></li>
-                <li><a href="/">Application</a></li>
+                <li><a id = 'homeRef'>Home</a></li>                
+                <li><a id = 'aboutRef'>About</a></li>
+                <li><a id = 'galleryRef'>Gallery</a></li>
+                <li><a id = 'applicationRef'>Application</a></li>
                 </ul>             
             </div>
 

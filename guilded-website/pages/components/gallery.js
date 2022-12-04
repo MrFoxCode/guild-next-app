@@ -6,7 +6,7 @@ function Gallery() {
 
 
     return (
-        <div className="gallery-container">
+        <div className="gallery-container" id="gallerySection">
 
             <h1>Gallery</h1>
 

@@ -1,4 +1,3 @@
-import { CONFIG_FILES } from "next/dist/shared/lib/constants";
 import React from "react";
 import config from "../config.json";
 
@@ -7,7 +6,7 @@ function Application() {
 
 
     return (
-        <div className="application-container">
+        <div className="application-container" id="applicationSection">
             <h1>Application</h1>
 
 
@@ -38,7 +37,7 @@ function Application() {
 
                 <div className="apply-buttons-container">
                 <button> Apply Now</button>
-                <button className="discord-button">Apply on Discord</button>
+                <a href ={config.discordInvite} target= "_blank"><button className="discord-button">Apply on Discord</button></a>
                 </div>
                 
                 </div>
