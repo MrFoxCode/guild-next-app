@@ -1,18 +1,18 @@
 import config from "../config.json";
 import { Link } from "react-scroll";
 
-
-function Navbar() {
-    //GET THE ELEMENT ID HIDDEN ON THE RIGHT
-    const burgerElement = document.getElementById('burger-container');
-    const navLinksElement = document.getElementById('nav-sections-container');     
+function Navbar() {   
     
     //FUNCTION TO BRING THE SIDEBAR
     const addActive = () =>{
+    //GET THE ELEMENT ID HIDDEN ON THE RIGHT
+    let navLinksElement = document.getElementById('nav-sections-container');
         //ADD ACTIVE CLASS TO MAKE IT SHOW UP
         navLinksElement.classList.add('burger-active');
     };
     const removeActive = () =>{
+    //GET THE ELEMENT ID HIDDEN ON THE RIGHT
+    let navLinksElement = document.getElementById('nav-sections-container');
         //REMOVE ACTIVE CLASS TO SLIDE IT OFF SCREEN
         navLinksElement.classList.remove('burger-active');
 
@@ -38,16 +38,19 @@ function Navbar() {
             </div>
             
             <div className="nav-sections-container" id="nav-sections-container">                
+                
                 <div onClick={removeActive} className="cross-x">
                     <div className="rec1"></div>
                     <div className="rec2"></div>
                 </div>
+                
                 <ul>
                 <li><Link onClick={removeActive} to = "homeS" smooth={true} duration={300} id = 'homeRef'>Home</Link></li>                
                 <li><Link onClick={removeActive} to = "aboutS" smooth={true} duration={300} id = 'aboutRef'>About</Link></li>
                 <li><Link onClick={removeActive} to = "galleryS" smooth={true} duration={300} id = 'galleryRef'>Gallery</Link></li>
                 <li><Link onClick={removeActive} to = "applicationS" smooth={true} duration={300} id = 'applicationRef'>Application</Link></li>
-                </ul>             
+                </ul>
+
             </div>
 
 
@@ -62,8 +65,10 @@ function Navbar() {
             </div>
 
             <div className="lang-container">
-                <img src=""></img>
-                <h3>EN</h3>                
+                <div className="lang-EN">
+                <img src={config.langFlagEN}></img>
+                <h3>EN</h3>
+                </div>                
             </div>
             
             <div onClick={addActive} className="burger-container" id="burger-container">

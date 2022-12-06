@@ -47,7 +47,7 @@ function Footer(){
                 </div>
                 </a>
 
-                <a href="https://instagram.com" target='_blank'>
+                <a href={config.instagramLink} target='_blank'>
                 <div className="instagram-container">
                 <img src={config.instagramLogo}></img>
                 <p>Instagram</p>

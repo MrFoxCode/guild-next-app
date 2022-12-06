@@ -17,10 +17,11 @@
 
     "founderPic": "https://cdn.discordapp.com/attachments/1046815806866083893/1047942288132812820/founder.png",
     "discordInvite": "https://discord.gg/wQswkSXJub",
+    "instagramLink": "https://www.instagram.com/oakleaf_bearers/",
 
-    "langFlagPT": "",
-    "langFlagEN": "",
-    "langFlagES": ""
+    "langFlagPT": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png",
+    "langFlagEN": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/640px-Flag_of_the_United_Kingdom.svg.png",
+    "langFlagES": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1200px-Bandera_de_Espa%C3%B1a.svg.png"
 }
 
 
