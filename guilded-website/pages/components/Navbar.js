@@ -3,6 +3,20 @@ import { Link } from "react-scroll";
 
 
 function Navbar() {
+    //GET THE ELEMENT ID HIDDEN ON THE RIGHT
+    const burgerElement = document.getElementById('burger-container');
+    const navLinksElement = document.getElementById('nav-sections-container');     
+    
+    //FUNCTION TO BRING THE SIDEBAR
+    const addActive = () =>{
+        //ADD ACTIVE CLASS TO MAKE IT SHOW UP
+        navLinksElement.classList.add('burger-active');
+    };
+    const removeActive = () =>{
+        //REMOVE ACTIVE CLASS TO SLIDE IT OFF SCREEN
+        navLinksElement.classList.remove('burger-active');
+
+    };
 
     return (
         
@@ -23,15 +37,19 @@ function Navbar() {
             
             </div>
             
-            <div className="nav-sections-container">
-                
+            <div className="nav-sections-container" id="nav-sections-container">                
+                <div onClick={removeActive} className="cross-x">
+                    <div className="rec1"></div>
+                    <div className="rec2"></div>
+                </div>
                 <ul>
-                <li><Link to = "homeS" smooth={true} duration={300} id = 'homeRef'>Home</Link></li>                
-                <li><Link to = "aboutS" smooth={true} duration={300} id = 'aboutRef'>About</Link></li>
-                <li><Link to = "galleryS" smooth={true} duration={300} id = 'galleryRef'>Gallery</Link></li>
-                <li><Link to = "applicationS" smooth={true} duration={300} id = 'applicationRef'>Application</Link></li>
+                <li><Link onClick={removeActive} to = "homeS" smooth={true} duration={300} id = 'homeRef'>Home</Link></li>                
+                <li><Link onClick={removeActive} to = "aboutS" smooth={true} duration={300} id = 'aboutRef'>About</Link></li>
+                <li><Link onClick={removeActive} to = "galleryS" smooth={true} duration={300} id = 'galleryRef'>Gallery</Link></li>
+                <li><Link onClick={removeActive} to = "applicationS" smooth={true} duration={300} id = 'applicationRef'>Application</Link></li>
                 </ul>             
             </div>
+
 
             {/* <div className="input-container">
                 <input placeholder="Search"></input>
@@ -47,19 +65,16 @@ function Navbar() {
                 <img src=""></img>
                 <h3>EN</h3>                
             </div>
-
-
-
-
-
-
+            
+            <div onClick={addActive} className="burger-container" id="burger-container">
+                <div className="block1"></div>
+                <div className="block2"></div>
+                <div className="block3"></div>
+            </div>
         </div>
-    );
+        
 
-
-    
-
-
+    );   
 
 }
 

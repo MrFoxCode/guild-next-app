@@ -1,7 +1,7 @@
 @import "../styles/Variables.modules";
 
 .navbar-container {   
-    height: 80px;
+    height: 75px;
     width: 100%;
     background-color: rgb(24, 24, 24);
     display: flex;
@@ -11,13 +11,36 @@
     z-index: 3;
 }
 
+.burger-container{
+   @include flexCenter();
+   display: none;
+   margin-right: 5px;
+   width: 30px;
+   height: 30px;
+   flex-direction: column;
+   justify-content: space-between;
+   cursor: pointer;
+   &:hover{
+    div{
+        background-color:rgb(207, 207, 207);
+    }
+   } 
+
+   .block1, .block2, .block3{
+    border-radius: 1em;
+    background: white;
+    height: 5px;
+    width: 35px;   
+   }
+}
 
 .nav-logo-container{
     width: 500px;    
     img{
-        width: 60px;
-        height: 60px;
+        width: 55px;
+        height: 55px;
         margin-right: 20px;
+        @include flexCenter();
         border-radius: 0;
         border: 0;
     }
@@ -35,6 +58,11 @@
 
 
 .nav-sections-container{
+
+  .cross-x{
+    display: none;
+    }
+
    ul{
     display: flex;
     margin-right: 170px;
@@ -97,7 +125,7 @@
              list-style: none;
              text-decoration: none;        
              a{
-                 font-size: 22px;
+                 
                  font-weight: 700;
                  margin-right: 30px;
                  margin-left: 30px; 
@@ -116,4 +144,83 @@
      .lang-container{
         margin-right: 20px;
     }  
+  }
+
+  //MOBILE RESOLUTION
+  @media screen and (max-width: 720px) {
+
+    .burger-container{
+        display: flex;
+    }
+  
+
+    .nav-sections-container{
+    position: absolute;
+    right: -800px;
+    top: 0;
+    background-color: rgba($color: #000000, $alpha: 0.9);
+    transition-duration: 0.4s;    
+    
+    .cross-x{
+        @include flexCenter();
+        position: absolute;
+        margin: 20px;
+        right: 0;
+        top: 0;
+        background-color: rgba($color: #424242, $alpha: 0.5);
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+
+        .rec1{
+            position: absolute;
+            width: 50px;
+            height: 10px;
+            border-radius: 1em;
+            background-color: white;
+            transform: rotate(45deg);
+        }
+        
+        .rec2{
+            position: absolute;
+            width: 50px;
+            height: 10px;
+            border-radius: 1em;
+            background-color: white;
+            transform: rotate(-45deg);
+        }
+    }
+    
+    ul{
+        flex-direction: column;
+        margin: 0;
+    li{
+        @include flexCenter;
+        flex-direction: column;
+        height: 320px;
+        width: 720px;
+        justify-content: space-around;
+        //justify-content: center;
+        a{
+            font-size: 40px;  
+        }   
+    
+    }
+
+   }
+
+}
+
+.burger-active{
+    right: 0px;
+   }
+   .buttons-container{
+    display: none;
+   } 
+
+   
+
+
+
+    
   }
