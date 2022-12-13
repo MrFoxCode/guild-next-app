@@ -261,6 +261,8 @@
   }
   .lang-container {
     margin-right: 20px;
+    width: 100px;
+    height: 35px;
   }
 }
 
@@ -283,6 +285,8 @@
   }
   .lang-container {
     position: absolute;
+    width: 70px;
+    height: 35px;
     left: 15px;
   }
   .nav-sections-container {
@@ -478,6 +482,21 @@
   width: 300px;
 }
 
+@media screen and (max-width: 768px) {
+  .home-container {
+    height: 110vh;
+  }
+  .mainpage-text-container h1 {
+    font-size: 70px;
+  }
+  .mainpage-text-container h3 {
+    font-size: 18px;
+  }
+  .mainpage-text-container button {
+    margin: 45px;
+  }
+}
+
 .generalButton, .buttons-container button {
   background: #b89358;
   width: 180px;
@@ -625,6 +644,7 @@
 .about-content-container .about-text-container h2 {
   font-size: 30px;
   margin-bottom: 15px;
+  margin-top: 45px;
 }
 
 .about-content-container .about-text-container p {
@@ -652,6 +672,46 @@
   .about-container {
     height: 180vh;
     background-size: cover;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-container {
+    height: 180vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about-container .about-content-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .about-container .about-content-container .leader-image-container {
+    display: none;
+    height: 500px;
+    width: 500px;
+    margin-right: 0;
+  }
+  .about-container .about-content-container .leader-image-container img {
+    display: none;
+    width: 350px;
+    height: 400px;
+  }
+  .about-container .about-content-container .about-text-container h3 {
+    font-size: 36px;
+  }
+  .about-container .about-content-container .about-text-container h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .about-container .about-content-container .about-text-container p {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  .about-container .about-content-container .about-text-container li:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
 }
 

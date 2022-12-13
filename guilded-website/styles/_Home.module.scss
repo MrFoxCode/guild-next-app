@@ -34,3 +34,30 @@
 
 
 }
+
+
+@media screen and (max-width: 768px) {
+
+    .home-container{
+        height: 110vh;
+    }
+
+   .mainpage-text-container{
+
+    h1{
+        font-size: 70px;
+    }
+    h3{
+        font-size: 18px;
+    }
+
+    button{
+        margin: 45px;
+    }
+
+}
+
+   
+    
+
+}

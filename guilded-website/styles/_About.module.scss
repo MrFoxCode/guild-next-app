@@ -44,6 +44,7 @@
         h2{
             font-size: 30px;
             margin-bottom: 15px;
+            margin-top: 45px;
         }
         p{
             font-size: 20px;
@@ -78,4 +79,63 @@
         height: 180vh;
         background-size: cover;
     }
+}
+
+@media screen and (max-width: 768px) {
+
+    .about-container{
+        height: 180vh;
+        flex-direction: column;
+
+
+        .about-content-container{
+          //  flex-direction: column;
+          padding-left: 15px;
+          padding-right: 15px;
+            .leader-image-container{
+                display: none;
+                height: 500px;
+                width: 500px;
+                margin-right: 0;
+                img{
+                    display: none;
+                    width: 350px;
+                    height: 400px;
+                }
+            }
+            
+            .about-text-container{
+                h3{
+                    
+                    font-size: 36px;
+                }
+                h2{
+                    font-size: 30px;
+                    margin-bottom: 15px;
+                }
+
+                p{
+                    font-size: 16px;
+                    margin-bottom: 25px;
+                }
+                li{
+                   &:hover{
+                    transform: scale(1.1);
+                   }
+                }
+            }
+
+
+        }
+    
+
+     
+
+    }
+
+    
+    
+
+
+    
 }
