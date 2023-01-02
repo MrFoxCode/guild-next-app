@@ -10,12 +10,11 @@
   font-size: 22px;
   cursor: pointer;
 }
-
 .generalButton:hover, .buttons-container button:hover {
   background-color: #927649;
 }
 
-.homeButton, .mainpage-text-container button, .application-content .application-left-content button {
+.homeButton, .application-content .application-left-content button, .mainpage-text-container button {
   background-color: #b89358;
   height: 80px;
   width: 300px;
@@ -26,8 +25,7 @@
   font-size: 22px;
   cursor: pointer;
 }
-
-.homeButton:hover, .mainpage-text-container button:hover, .application-content .application-left-content button:hover {
+.homeButton:hover, .application-content .application-left-content button:hover, .mainpage-text-container button:hover {
   background-color: #927649;
 }
 
@@ -42,7 +40,6 @@
   font-size: 22px;
   cursor: pointer;
 }
-
 .discordButton:hover, .application-content .application-left-content .discord-button:hover {
   background-color: #5465a3;
 }
@@ -61,57 +58,38 @@
     height: 70px;
     width: 280px;
   }
-  .homeButton, .mainpage-text-container button, .application-content .application-left-content button {
+  .homeButton, .application-content .application-left-content button, .mainpage-text-container button {
     height: 70px;
     width: 280px;
   }
 }
-
 .navbar-container {
   height: 75px;
   width: 100%;
-  background-color: #181818;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  background-color: rgb(24, 24, 24);
   display: flex;
   position: fixed;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  align-items: center;
+  justify-content: space-around;
   z-index: 3;
 }
 
 .burger-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   display: none;
   margin-right: 5px;
   width: 25px;
   height: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
   cursor: pointer;
 }
-
 .burger-container:hover div {
-  background-color: #cfcfcf;
+  background-color: rgb(207, 207, 207);
 }
-
 .burger-container .block1, .burger-container .block2, .burger-container .block3 {
   border-radius: 1em;
   background: white;
@@ -121,40 +99,25 @@
 
 .nav-logo-container {
   width: 500px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
-
 .nav-logo-container img {
   width: 55px;
   height: 55px;
   margin-right: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   border-radius: 0;
   border: 0;
 }
-
 .nav-logo-container h2 {
   font-size: 25px;
 }
-
 .nav-logo-container h5 {
   display: none;
   font-size: 10px;
@@ -163,19 +126,14 @@
 .nav-sections-container .cross-x {
   display: none;
 }
-
 .nav-sections-container ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-right: 170px;
 }
-
 .nav-sections-container li {
   list-style: none;
   text-decoration: none;
 }
-
 .nav-sections-container li a {
   font-size: 22px;
   font-weight: 700;
@@ -183,21 +141,14 @@
   margin-left: 30px;
   cursor: pointer;
 }
-
 .nav-sections-container li a:hover {
-  color: #cfcfcf;
+  color: rgb(207, 207, 207);
 }
 
 .lang-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   right: 0;
   border-radius: 0.9em;
@@ -207,28 +158,16 @@
   color: black;
   cursor: pointer;
 }
-
 .lang-container:hover {
   background-color: rgba(201, 201, 201, 0.5);
 }
-
 .lang-container div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
-
 .lang-container img {
   width: 25px;
   height: 20px;
@@ -238,8 +177,6 @@
 
 @media screen and (max-width: 1280px) {
   .nav-sections-container ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin-right: 100px;
   }
@@ -254,7 +191,7 @@
     cursor: pointer;
   }
   .nav-sections-container li a:hover {
-    color: #cfcfcf;
+    color: rgb(207, 207, 207);
   }
   .buttons-container {
     margin-right: 20px;
@@ -265,13 +202,10 @@
     height: 35px;
   }
 }
-
 @media screen and (max-width: 768px) {
   .burger-container {
     position: absolute;
     right: 15px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .nav-logo-container img {
@@ -290,15 +224,9 @@
     left: 15px;
   }
   .nav-sections-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 0;
     position: absolute;
@@ -308,20 +236,13 @@
     right: -800px;
     top: 0;
     background-color: rgba(0, 0, 0, 0.9);
-    -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s;
+    transition-duration: 0.4s;
     z-index: 3;
   }
   .nav-sections-container .cross-x {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     position: absolute;
     margin: 10px;
@@ -338,8 +259,7 @@
     height: 4px;
     border-radius: 1em;
     background-color: white;
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
   }
   .nav-sections-container .cross-x .rec2 {
     position: absolute;
@@ -347,23 +267,16 @@
     height: 4px;
     border-radius: 1em;
     background-color: white;
-    -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
   }
   .nav-sections-container ul {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     width: 100%;
   }
   .nav-sections-container ul li {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin: 45px;
   }
   .nav-sections-container ul li a {
@@ -376,7 +289,6 @@
     display: none;
   }
 }
-
 .generalButton, .buttons-container button {
   background: #b89358;
   width: 180px;
@@ -388,12 +300,11 @@
   font-size: 22px;
   cursor: pointer;
 }
-
 .generalButton:hover, .buttons-container button:hover {
   background-color: #927649;
 }
 
-.homeButton, .mainpage-text-container button, .application-content .application-left-content button {
+.homeButton, .application-content .application-left-content button, .mainpage-text-container button {
   background-color: #b89358;
   height: 80px;
   width: 300px;
@@ -404,8 +315,7 @@
   font-size: 22px;
   cursor: pointer;
 }
-
-.homeButton:hover, .mainpage-text-container button:hover, .application-content .application-left-content button:hover {
+.homeButton:hover, .application-content .application-left-content button:hover, .mainpage-text-container button:hover {
   background-color: #927649;
 }
 
@@ -420,7 +330,6 @@
   font-size: 22px;
   cursor: pointer;
 }
-
 .discordButton:hover, .application-content .application-left-content .discord-button:hover {
   background-color: #5465a3;
 }
@@ -439,22 +348,15 @@
     height: 70px;
     width: 280px;
   }
-  .homeButton, .mainpage-text-container button, .application-content .application-left-content button {
+  .homeButton, .application-content .application-left-content button, .mainpage-text-container button {
     height: 70px;
     width: 280px;
   }
 }
-
 .home-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   height: 120vh;
   width: 100%;
@@ -462,7 +364,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #1f1f1f;
+  background-color: rgb(31, 31, 31);
   background-size: fill;
   background-position: top;
 }
@@ -471,11 +373,9 @@
   font-size: 100px;
   font-weight: bold;
 }
-
 .mainpage-text-container h3 {
   font-size: 25px;
 }
-
 .mainpage-text-container button {
   margin: 60px;
   height: 80px;
@@ -496,7 +396,6 @@
     margin: 45px;
   }
 }
-
 .generalButton, .buttons-container button {
   background: #b89358;
   width: 180px;
@@ -508,12 +407,11 @@
   font-size: 22px;
   cursor: pointer;
 }
-
 .generalButton:hover, .buttons-container button:hover {
   background-color: #927649;
 }
 
-.homeButton, .mainpage-text-container button, .application-content .application-left-content button {
+.homeButton, .application-content .application-left-content button, .mainpage-text-container button {
   background-color: #b89358;
   height: 80px;
   width: 300px;
@@ -524,8 +422,7 @@
   font-size: 22px;
   cursor: pointer;
 }
-
-.homeButton:hover, .mainpage-text-container button:hover, .application-content .application-left-content button:hover {
+.homeButton:hover, .application-content .application-left-content button:hover, .mainpage-text-container button:hover {
   background-color: #927649;
 }
 
@@ -540,7 +437,6 @@
   font-size: 22px;
   cursor: pointer;
 }
-
 .discordButton:hover, .application-content .application-left-content .discord-button:hover {
   background-color: #5465a3;
 }
@@ -559,22 +455,15 @@
     height: 70px;
     width: 280px;
   }
-  .homeButton, .mainpage-text-container button, .application-content .application-left-content button {
+  .homeButton, .application-content .application-left-content button, .mainpage-text-container button {
     height: 70px;
     width: 280px;
   }
 }
-
 .about-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   width: 100%;
   height: 120vh;
@@ -582,76 +471,51 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #1f1f1f;
+  background-color: rgb(31, 31, 31);
 }
 
 .about-content-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   width: 100%;
   padding-right: 100px;
   padding-left: 100px;
 }
-
 .about-content-container .leader-image-container {
   width: 500px;
   height: 600px;
   margin-right: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
-
 .about-content-container .leader-image-container img {
   opacity: 0.6;
   width: 600px;
   height: 600px;
 }
-
 .about-content-container .about-text-container {
   width: 700px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .about-content-container .about-text-container h3 {
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 20px;
 }
-
 .about-content-container .about-text-container h2 {
   font-size: 30px;
   margin-bottom: 15px;
   margin-top: 45px;
 }
-
 .about-content-container .about-text-container p {
   font-size: 20px;
   margin-bottom: 25px;
 }
-
 .about-content-container .about-text-container li {
   list-style: none;
   margin-bottom: 10px;
@@ -660,12 +524,9 @@
   border-radius: 5px;
   padding: 10px;
 }
-
 .about-content-container .about-text-container li:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
+  transform: scale(1.2);
+  transition-duration: 0.3s;
 }
 
 @media screen and (max-width: 1280px) {
@@ -674,14 +535,10 @@
     background-size: cover;
   }
 }
-
 @media screen and (max-width: 768px) {
   .about-container {
     height: 180vh;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .about-container .about-content-container {
     padding-left: 15px;
@@ -710,11 +567,9 @@
     margin-bottom: 25px;
   }
   .about-container .about-content-container .about-text-container li:hover {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
   }
 }
-
 .generalButton, .buttons-container button {
   background: #b89358;
   width: 180px;
@@ -726,12 +581,11 @@
   font-size: 22px;
   cursor: pointer;
 }
-
 .generalButton:hover, .buttons-container button:hover {
   background-color: #927649;
 }
 
-.homeButton, .mainpage-text-container button, .application-content .application-left-content button {
+.homeButton, .application-content .application-left-content button, .mainpage-text-container button {
   background-color: #b89358;
   height: 80px;
   width: 300px;
@@ -742,8 +596,7 @@
   font-size: 22px;
   cursor: pointer;
 }
-
-.homeButton:hover, .mainpage-text-container button:hover, .application-content .application-left-content button:hover {
+.homeButton:hover, .application-content .application-left-content button:hover, .mainpage-text-container button:hover {
   background-color: #927649;
 }
 
@@ -758,7 +611,6 @@
   font-size: 22px;
   cursor: pointer;
 }
-
 .discordButton:hover, .application-content .application-left-content .discord-button:hover {
   background-color: #5465a3;
 }
@@ -777,42 +629,30 @@
     height: 70px;
     width: 280px;
   }
-  .homeButton, .mainpage-text-container button, .application-content .application-left-content button {
+  .homeButton, .application-content .application-left-content button, .mainpage-text-container button {
     height: 70px;
     width: 280px;
   }
 }
-
 .gallery-container {
   width: 100%;
   height: 100vh;
-  background-color: #0c0c0c;
+  background-color: rgb(12, 12, 12);
   background-image: url("https://cdn.discordapp.com/attachments/1046815806866083893/1047938279342866523/gallerybg.jpg");
   background-position: right;
   background-size: 150%;
   background-repeat: no-repeat;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 500px;
 }
-
 .gallery-container h1 {
   font-size: 40px;
   margin-bottom: 35px;
 }
-
 .gallery-container h2 {
   font-size: 35px;
   margin-bottom: 35px;
@@ -825,34 +665,20 @@
 }
 
 .gallery-content-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   height: 720px;
   width: 100%;
 }
-
 .gallery-content-container div {
   border-radius: 10px;
 }
-
 .gallery-content-container .screenshots-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   height: 700px;
   width: 500px;
@@ -862,58 +688,31 @@
   background-size: cover;
   cursor: pointer;
 }
-
 .gallery-content-container .screenshots-container:hover {
-  -webkit-filter: brightness(1.5);
-          filter: brightness(1.5);
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  filter: brightness(1.5);
+  transform: scale(1.05);
+  transition-duration: 0.5s;
   background-position: right;
 }
-
 .gallery-content-container .gallery-right-side {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   height: 700px;
   width: 800px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .gallery-content-container .gallery-right-side .gallery-box2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   width: 800px;
   height: 350px;
 }
-
 .gallery-content-container .gallery-right-side .gallery-box2 .styles-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   width: 400px;
   height: 350px;
@@ -923,26 +722,16 @@
   background-color: orange;
   background-size: 300%;
 }
-
 .gallery-content-container .gallery-right-side .gallery-box2 .styles-container:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
+  transform: scale(1.05);
+  transition-duration: 0.3s;
   background-position: center;
   background-size: 177%;
 }
-
 .gallery-content-container .gallery-right-side .gallery-box2 .uniform-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   width: 400px;
   height: 350px;
@@ -951,37 +740,21 @@
   background-position: top right;
   background-image: url("https://cdn.discordapp.com/attachments/1046815806866083893/1046904682418802819/uniformbgbdo.jpg");
 }
-
 .gallery-content-container .gallery-right-side .gallery-box2 .uniform-container:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  transform: scale(1.05);
+  transition-duration: 0.5s;
   background-position: top;
 }
-
 .gallery-content-container .gallery-right-side .gallery-box3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   width: 800px;
   height: 350px;
 }
-
 .gallery-content-container .gallery-right-side .gallery-box3 .guides-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   width: 266px;
   height: 350px;
@@ -989,27 +762,17 @@
   background-size: 300%;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #929235;
+  background-color: rgb(146, 146, 53);
 }
-
 .gallery-content-container .gallery-right-side .gallery-box3 .guides-container:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
+  transform: scale(1.05);
+  transition-duration: 0.3s;
   background-position: top;
 }
-
 .gallery-content-container .gallery-right-side .gallery-box3 .gear-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   width: 266px;
   height: 350px;
@@ -1018,25 +781,15 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-
 .gallery-content-container .gallery-right-side .gallery-box3 .gear-container:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
+  transform: scale(1.05);
+  transition-duration: 0.3s;
   background-position: top;
 }
-
 .gallery-content-container .gallery-right-side .gallery-box3 .lifeskills-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   width: 266px;
   height: 350px;
@@ -1046,12 +799,9 @@
   background-repeat: no-repeat;
   background-color: red;
 }
-
 .gallery-content-container .gallery-right-side .gallery-box3 .lifeskills-container:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
+  transform: scale(1.05);
+  transition-duration: 0.3s;
   background-size: cover;
   background-position: bottom center;
 }
@@ -1101,7 +851,6 @@
     height: 300px;
   }
 }
-
 .generalButton, .buttons-container button {
   background: #b89358;
   width: 180px;
@@ -1113,12 +862,11 @@
   font-size: 22px;
   cursor: pointer;
 }
-
 .generalButton:hover, .buttons-container button:hover {
   background-color: #927649;
 }
 
-.homeButton, .mainpage-text-container button, .application-content .application-left-content button {
+.homeButton, .application-content .application-left-content button, .mainpage-text-container button {
   background-color: #b89358;
   height: 80px;
   width: 300px;
@@ -1129,8 +877,7 @@
   font-size: 22px;
   cursor: pointer;
 }
-
-.homeButton:hover, .mainpage-text-container button:hover, .application-content .application-left-content button:hover {
+.homeButton:hover, .application-content .application-left-content button:hover, .mainpage-text-container button:hover {
   background-color: #927649;
 }
 
@@ -1145,7 +892,6 @@
   font-size: 22px;
   cursor: pointer;
 }
-
 .discordButton:hover, .application-content .application-left-content .discord-button:hover {
   background-color: #5465a3;
 }
@@ -1164,35 +910,24 @@
     height: 70px;
     width: 280px;
   }
-  .homeButton, .mainpage-text-container button, .application-content .application-left-content button {
+  .homeButton, .application-content .application-left-content button, .mainpage-text-container button {
     height: 70px;
     width: 280px;
   }
 }
-
 .application-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  background-color: #2c2c2c;
+  background-color: rgb(44, 44, 44);
   background-image: url("https://cdn.discordapp.com/attachments/1046815806866083893/1046840390889775195/applybgedited.jpg");
   background-position: center;
   height: 100vh;
   width: 100%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 450px;
 }
-
 .application-container h1 {
   font-size: 40px;
   margin-bottom: 35px;
@@ -1200,96 +935,55 @@
 
 .application-content {
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
-
 .application-content .application-left-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   width: 700px;
   height: 700px;
   background-color: rgba(0, 0, 0, 0.4);
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   border-radius: 1em;
   margin-right: 10px;
 }
-
 .application-content .application-left-content img {
   width: 100px;
   height: 100px;
 }
-
 .application-content .application-left-content .application-text-container h2 {
   font-size: 50px;
   margin-bottom: 30px;
 }
-
 .application-content .application-left-content .application-text-container p {
   font-size: 20px;
   margin-bottom: 30px;
   padding-left: 50px;
   padding-right: 50px;
 }
-
 .application-content .application-left-content .application-text-container .masterNames {
   font-weight: 800;
 }
-
 .application-content .application-left-content .aplly-buttons-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
-
 .application-content .application-left-content button {
   margin: 5px;
 }
-
 .application-content .application-right-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   width: 700px;
   height: 700px;
@@ -1297,31 +991,26 @@
   background-color: rgba(0, 0, 0, 0.4);
   margin-left: 10px;
 }
-
 .application-content .application-right-content img {
   display: none;
   border-radius: 1em;
   width: 650px;
   height: 700px;
 }
-
 .application-content .application-right-content .application-text-container2 h2 {
   font-size: 50px;
   margin-bottom: 30px;
 }
-
 .application-content .application-right-content .application-text-container2 p {
   font-size: 20px;
   margin-bottom: 30px;
   padding-left: 50px;
   padding-right: 50px;
 }
-
 .application-content .application-right-content .application-text-container2 .requirements-container {
   padding-left: 60px;
   padding-right: 60px;
 }
-
 .application-content .application-right-content .application-text-container2 li {
   font-size: 18px;
   margin-bottom: 10px;
@@ -1330,7 +1019,6 @@
   border-radius: 5px;
   padding: 10px;
 }
-
 .application-content .application-right-content .application-text-container2 .masterNames {
   font-weight: 800;
 }
@@ -1355,7 +1043,54 @@
     height: 700px;
   }
 }
-
+@media screen and (max-width: 768px) {
+  .application-container {
+    flex-direction: column;
+    background-size: cover;
+    height: 260vh;
+    padding: 0;
+    justify-content: space-between;
+  }
+  .application-container h1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .application-container .application-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 260vh;
+  }
+  .application-container .application-content .application-left-content {
+    margin: 0;
+    margin-bottom: 30px;
+    width: 350px;
+    height: 900px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .application-container .application-content .application-left-content .application-text-container h2 {
+    font-size: 35px;
+  }
+  .application-container .application-content .application-left-content .application-text-container p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .application-container .application-content .application-right-content {
+    margin: 0;
+    width: 350px;
+    height: 580px;
+  }
+  .application-container .application-content .application-right-content .application-text-container2 h2 {
+    font-size: 35px;
+  }
+  .application-container .application-content .application-right-content .application-text-container2 p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 .generalButton, .buttons-container button {
   background: #b89358;
   width: 180px;
@@ -1367,7 +1102,6 @@
   font-size: 22px;
   cursor: pointer;
 }
-
 .generalButton:hover, .buttons-container button:hover {
   background-color: #927649;
 }
@@ -1383,7 +1117,6 @@
   font-size: 22px;
   cursor: pointer;
 }
-
 .homeButton:hover, .mainpage-text-container button:hover, .application-content .application-left-content button:hover {
   background-color: #927649;
 }
@@ -1399,7 +1132,6 @@
   font-size: 22px;
   cursor: pointer;
 }
-
 .discordButton:hover, .application-content .application-left-content .discord-button:hover {
   background-color: #5465a3;
 }
@@ -1423,180 +1155,112 @@
     width: 280px;
   }
 }
-
 .footer-container {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   padding: 0;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   width: 100%;
   height: 500px;
-  background-color: #0c0c0c;
+  background-color: rgb(12, 12, 12);
 }
 
 .top-footer-container {
   margin: 0;
-  background-color: #0c0c0c;
+  background-color: rgb(12, 12, 12);
   width: 100%;
   height: 20px;
 }
 
 .footer-content-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   width: 100%;
   height: 455px;
 }
-
 .footer-content-container .footer-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   height: 455px;
   width: 80%;
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
 .footer-content-container .footer-content p {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   width: 75%;
   padding: 10px;
   font-size: 20px;
   text-align: start;
 }
-
 .footer-content-container .footer-content .footer-content-image {
   width: 15%;
 }
-
 .footer-content-container .footer-content .footer-content-image img {
   border: 0;
   width: 130px;
   height: 130px;
 }
-
 .footer-content-container .footer-content-socials {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  background-color: #0c0c0c;
+  background-color: rgb(12, 12, 12);
   height: 455px;
   width: 20%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-around;
   padding-top: 50px;
   padding-bottom: 20px;
 }
-
 .footer-content-container .footer-content-socials .discord-container, .footer-content-container .footer-content-socials .twitter-container, .footer-content-container .footer-content-socials .instagram-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  align-items: center;
+  flex-direction: row;
   padding-left: 20px;
   margin-bottom: -30px;
   cursor: pointer;
   text-align: start;
   font-size: 25px;
   font-weight: 800;
-  background-color: #0c0c0c;
+  background-color: rgb(12, 12, 12);
   width: 220px;
   height: 40px;
 }
-
 .footer-content-container .footer-content-socials .discord-container p, .footer-content-container .footer-content-socials .twitter-container p, .footer-content-container .footer-content-socials .instagram-container p {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   text-align: start;
 }
-
 .footer-content-container .footer-content-socials .discord-container img, .footer-content-container .footer-content-socials .twitter-container img, .footer-content-container .footer-content-socials .instagram-container img {
-  -webkit-filter: brightness(0) invert(1);
-          filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
   width: 35px;
   height: 35px;
   margin-right: 15px;
 }
-
 .footer-content-container .footer-content-socials .stacks-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 20%;
   margin-top: 35px;
 }
-
 .footer-content-container .footer-content-socials .stacks-container .stacks-container-images {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   width: 300px;
   height: 50px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-
 .footer-content-container .footer-content-socials .stacks-container .stacks-container-images img {
   width: 40px;
   height: 40px;
@@ -1604,26 +1268,75 @@
 }
 
 .all-rights-container {
-  background-color: #0c0c0c;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  background-color: rgb(12, 12, 12);
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   width: 100%;
   height: 25px;
 }
-
 .all-rights-container h4 {
   font-size: 15px;
   font-weight: 500;
 }
 
+@media screen and (max-width: 768px) {
+  .footer-container {
+    height: 180vh;
+  }
+  .footer-content-container {
+    flex-direction: column;
+    height: 155vh;
+  }
+  .footer-content-container .footer-content {
+    padding: 0;
+    width: 100%;
+    flex-direction: column;
+  }
+  .footer-content-container .footer-content p {
+    width: 100%;
+    margin-top: 30px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .footer-content-container .footer-content .footer-content-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-content-container .footer-content .footer-content-image img {
+    width: 80px;
+    height: 80px;
+  }
+  .footer-content-container .footer-content-socials {
+    width: 100%;
+    height: 90vh;
+    padding: 0;
+  }
+  .footer-content-container .footer-content-socials .discord-container, .footer-content-container .footer-content-socials .twitter-container, .footer-content-container .footer-content-socials .instagram-container {
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+  }
+  .footer-content-container .footer-content-socials .discord-container img, .footer-content-container .footer-content-socials .twitter-container img, .footer-content-container .footer-content-socials .instagram-container img {
+    margin: 1;
+  }
+  .footer-content-container .footer-content-socials .stacks-container {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .top-footer-container {
+    height: 10vh;
+  }
+  .all-rights-container {
+    padding: 20px;
+    text-align: center;
+    height: 15vh;
+  }
+}
 html,
 body {
   overflow-x: hidden;
@@ -1638,13 +1351,11 @@ a {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: white;
 }
-
 * img {
   pointer-events: none;
 }
@@ -1657,5 +1368,4 @@ a {
     color: white;
     background: black;
   }
-}
-/*# sourceMappingURL=globals.css.map */
+} /*# sourceMappingURL=globals.css.map */ /*# sourceMappingURL=globals.css.map *//*# sourceMappingURL=globals.css.map */
