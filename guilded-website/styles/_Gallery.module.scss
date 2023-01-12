@@ -1,7 +1,7 @@
 @import "../styles/Variables.modules";
 
 
-.gallery-container{
+.gallery-container {
     width: 100%;
     height: 100vh;
     background-color: $navbarcolor;
@@ -10,15 +10,15 @@
     background-size: 150%;
     background-repeat: no-repeat;
     @include flexCenter();
-    flex-direction: column;    
+    flex-direction: column;
     padding: 500px;
 
-    h1{
+    h1 {
         font-size: 40px;
         margin-bottom: 35px;
     }
 
-    h2{
+    h2 {
         font-size: 35px;
         margin-bottom: 35px;
         background-color: rgba($color: #000000, $alpha: 0.3);
@@ -31,68 +31,70 @@
 }
 
 
-.gallery-content-container{    
+.gallery-content-container {
     @include flexCenter();
     // background-color: gray;
     height: 720px;
     width: 100%;
 
-    div{
+    div {
         border-radius: 10px;
     }
-    
-    .screenshots-container{
+
+    .screenshots-container {
         @include flexCenter();
         height: 700px;
         width: 500px;
         //background-color: green;
         background-image: url($screenshotBG);
-        
+
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         cursor: pointer;
-        &:hover{            
-            filter: brightness(1.5);            
+
+        &:hover {
+            filter: brightness(1.5);
             transform: scale(1.05);
             transition-duration: 0.5s;
             background-position: right;
         }
-               
+
     }
 
 
-    .gallery-right-side{
+    .gallery-right-side {
         @include flexCenter();
         height: 700px;
         width: 800px;
         flex-direction: column;
-        
-        .gallery-box2{
+
+        .gallery-box2 {
             display: flex;
             flex-direction: row;
             width: 800px;
             height: 350px;
 
-            .styles-container{
+            .styles-container {
                 @include flexCenter();
                 width: 400px;
                 height: 350px;
                 background-image: url($stylesBG);
                 background-repeat: no-repeat;
                 background-position: bottom;
-                background-color:orange;
+                background-color: orange;
                 background-size: 300%;
-                &:hover{
+
+                &:hover {
                     transform: scale(1.05);
                     transition-duration: 0.3s;
                     background-position: center;
                     background-size: 177%;
-                    
+
                 }
             }
 
-            .uniform-container{
+            .uniform-container {
                 @include flexCenter();
                 width: 400px;
                 height: 350px;
@@ -100,23 +102,24 @@
                 background-size: 320%;
                 background-position: top right;
                 background-image: url($uniformBG);
-                &:hover{
+
+                &:hover {
                     transform: scale(1.05);
                     transition-duration: 0.5s;
                     background-position: top;
-                }                
-              
+                }
+
             }
-           
+
         }
 
-        .gallery-box3{
+        .gallery-box3 {
             display: flex;
             flex-direction: row;
             width: 800px;
             height: 350px;
 
-            .guides-container{
+            .guides-container {
                 @include flexCenter();
                 width: 266px;
                 height: 350px;
@@ -125,13 +128,15 @@
                 background-position: center;
                 background-repeat: no-repeat;
                 background-color: rgb(146, 146, 53);
-                &:hover{
+
+                &:hover {
                     transform: scale(1.05);
                     transition-duration: 0.3s;
                     background-position: top;
                 }
             }
-            .gear-container{
+
+            .gear-container {
                 @include flexCenter();
                 width: 266px;
                 height: 350px;
@@ -139,15 +144,17 @@
                 background-size: 175%;
                 background-position: center;
                 background-repeat: no-repeat;
-                &:hover{
+
+                &:hover {
                     transform: scale(1.05);
                     transition-duration: 0.3s;
                     background-position: top;
                 }
-              
+
 
             }
-            .lifeskills-container{
+
+            .lifeskills-container {
                 @include flexCenter();
                 width: 266px;
                 height: 350px;
@@ -155,8 +162,9 @@
                 background-size: cover;
                 background-position: left;
                 background-repeat: no-repeat;
-                background-color:red;
-                &:hover{
+                background-color: red;
+
+                &:hover {
                     transform: scale(1.05);
                     transition-duration: 0.3s;
                     background-size: cover;
@@ -172,64 +180,130 @@
 
 
 //RESPONSIVE SCREEN 1280 X 720
-@media screen and (max-width: 1280px){
-  .gallery-container{
-    background-size: cover;
-    
-  }
+@media screen and (max-width: 1280px) {
+    .gallery-container {
+        background-size: cover;
 
-  .gallery-content-container{
-    width: 1200px;
-
-    .screenshots-container{
-        height: 600px;
-        width: 400px;
-     
     }
 
-    .gallery-right-side{
-        height: 600px;
-        width: 700px;
+    .gallery-content-container {
+        width: 1200px;
 
+        .screenshots-container {
+            height: 600px;
+            width: 400px;
 
-        .gallery-box2{
+        }
+
+        .gallery-right-side {
+            height: 600px;
             width: 700px;
-            height: 300px;
 
-            .styles-container{
-                width: 350px;
+
+            .gallery-box2 {
+                width: 700px;
                 height: 300px;
+
+                .styles-container {
+                    width: 350px;
+                    height: 300px;
+                }
+
+                .uniform-container {
+                    width: 350px;
+                    height: 300px;
+                }
             }
-            .uniform-container{
-                width: 350px;
+
+            .gallery-box3 {
+                width: 700px;
                 height: 300px;
+
+                .guides-container {
+                    width: 233px;
+                    height: 300px;
+                    background-size: 300%;
+                }
+
+                .gear-container {
+                    width: 233px;
+                    height: 300px;
+                }
+
+                .lifeskills-container {
+                    width: 233px;
+                    height: 300px;
+
+                }
             }
         }
 
-        .gallery-box3{
-            width: 700px;
-            height: 300px;
 
-            .guides-container{
-                width: 233px;
-                height: 300px;
-                background-size: 300%;
-            }
-            .gear-container{
-                width: 233px;
-                height: 300px;
-            }
 
-            .lifeskills-container{
-                width: 233px;
-                height: 300px;
+    }
+
+}
+
+//RESPONSIVE MOBILE
+
+@media screen and (max-width: 768px) {
+
+    .gallery-container {
+        padding: 0;
+        height: 350vh;
+        flex-direction: column;
+        margin: 0;
+        background-size: cover;
+        background-position: top;
+
+        h1{ 
+            margin-top: 100px;
+            margin-bottom: 70px;
+            padding: 0;
+        }
+
+        .gallery-content-container {
+           flex-direction: column;
+           justify-content: start;
+           height: 350vh;
+
+           .screenshots-container {
+                width: 360px;
+                height: 500px;
+                
+               }
+
+        }
+
+        .gallery-right-side {
+            flex-direction: column;
+            width: 360px;
+            height: 900px;
             
+            .gallery-box2 {
+                flex-direction: column;
+                width: 360px;               
+                height:650px;
+                .styles-container,.uniform-container{
+                    width: 360px;
+                    height: 300px;
+                }
             }
+
+            .gallery-box3 {
+                flex-direction: column;
+                width: 360px;
+                .guides-container,.gear-container, .lifeskills-container{
+                    width: 360px;
+                    height: 300px;
+                }
+                
+            }
+
         }
+    
     }
 
 
-    
-  }
 
 }
