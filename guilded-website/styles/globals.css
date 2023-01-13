@@ -150,25 +150,52 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  right: 0;
+  position: relative;
+  padding-top: 17px;
+}
+.lang-container .lang-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  list-style: none;
   border-radius: 0.9em;
-  background-color: rgba(112, 112, 112, 0.5);
-  width: 70px;
-  height: 35px;
+  width: 100px;
+  height: 50px;
   color: black;
   cursor: pointer;
 }
-.lang-container:hover {
+.lang-container .lang-content li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 14px;
+  background-color: rgba(112, 112, 112, 0.5);
+  width: 100px;
+  height: 50px;
+  border-radius: 0.9em;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+.lang-container .lang-content li:hover {
   background-color: rgba(201, 201, 201, 0.5);
 }
-.lang-container div {
+.lang-container .lang-content div {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   flex-direction: row;
 }
-.lang-container img {
+.lang-container .lang-content img {
   width: 25px;
   height: 20px;
   border-radius: 5px;
@@ -862,23 +889,22 @@
   }
   .gallery-container h1 {
     margin-top: 100px;
+    margin-bottom: 70px;
     padding: 0;
   }
   .gallery-container .gallery-content-container {
-    margin-top: 0px;
     flex-direction: column;
     justify-content: start;
     height: 350vh;
   }
   .gallery-container .gallery-content-container .screenshots-container {
     width: 360px;
-    height: 650px;
-    margin-bottom: 20px;
+    height: 500px;
   }
   .gallery-container .gallery-right-side {
     flex-direction: column;
     width: 360px;
-    height: 650px;
+    height: 900px;
   }
   .gallery-container .gallery-right-side .gallery-box2 {
     flex-direction: column;
@@ -887,10 +913,15 @@
   }
   .gallery-container .gallery-right-side .gallery-box2 .styles-container, .gallery-container .gallery-right-side .gallery-box2 .uniform-container {
     width: 360px;
+    height: 300px;
   }
   .gallery-container .gallery-right-side .gallery-box3 {
     flex-direction: column;
     width: 360px;
+  }
+  .gallery-container .gallery-right-side .gallery-box3 .guides-container, .gallery-container .gallery-right-side .gallery-box3 .gear-container, .gallery-container .gallery-right-side .gallery-box3 .lifeskills-container {
+    width: 360px;
+    height: 300px;
   }
 }
 .generalButton, .buttons-container button {

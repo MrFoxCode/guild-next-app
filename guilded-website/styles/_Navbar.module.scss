@@ -99,16 +99,60 @@
 
 .lang-container{
     @include flexCenter();
-    right: 0;
-    border-radius: 0.9em;
-    background-color: rgba($color: #707070, $alpha: 0.5);
-    width: 70px;
+    //background-color: red;
+    position: relative;
+    padding-top: 17px;    
+    width: 100px;
     height: 35px;
+    
+
+
+.lang-content{
+    @include flexCenter();
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    list-style: none;    
+    //right: 0;
+    border-radius: 0.9em;
+   //background-color: rgba($color: #707070, $alpha: 0.5);
+    width: 100px;
+    height: 50px;
     color: black;
     cursor: pointer;
-    &:hover{
-        background-color: rgba($color: #c9c9c9, $alpha: 0.5);
+
+   
+    
+    .list-BR, .list-ES{
+        display: none;
     }
+   
+    .lang-Active{
+        display: flex;
+        }
+    
+    li{
+        @include flexCenter();
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 14px;
+        background-color: rgba($color: #707070, $alpha: 0.5);
+        width: 100px;
+        height: 50px;
+        border-radius: 0.9em;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+        &:hover{
+            background-color: rgba($color: #c9c9c9, $alpha: 0.5);
+        }
+        
+    }
+
+
+   
+
 
     div{
         @include flexCenter();
@@ -123,6 +167,7 @@
     }
 }
 
+}
 
 
 //RESPONSIVE FOR 1280X720
