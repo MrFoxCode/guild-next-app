@@ -84,32 +84,33 @@ function Navbar() {
             <div className="lang-container">
                 
                 <ul className="lang-content">
-                    <li onClick={langActive}className="list-EN" id="list-EN">
-                    <a>
+                    <a onClick={langActive}>
+                    <li className="list-EN" id="list-EN">
                     <div className="lang-EN">
                     <img src={config.langFlagEN}></img>
                     <h3>EN</h3>
                     </div>
-                    </a>
                     </li>
-
-                    <li className="list-BR" id="list-BR">
+                    </a>
+                    
                     <a href="">
+                    <li className="list-BR" id="list-BR">
                     <div className="lang-BR">
                     <img src={config.langFlagPT}></img>
                     <h3>PT-BR</h3>
-                    </div>
-                    </a>
+                    </div>                   
                     </li>
+                    </a>
 
+                    <a href=""> 
                     <li className="list-ES" id="list-ES">
-                     <a href="">   
                     <div className="lang-ES">
                     <img src={config.langFlagES}></img>
                     <h3>ES</h3>
                     </div>
-                    </a>
                     </li>
+                    </a>
+                    
                 </ul>
                 
             </div>
