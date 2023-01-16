@@ -62,10 +62,10 @@ function Navbar() {
                 </div>
                 
                 <ul>
-                <li><Link onClick={removeActive} to = "homeS" smooth={true} duration={300} id = 'homeRef'>Home</Link></li>                
-                <li><Link onClick={removeActive} to = "aboutS" smooth={true} duration={300} id = 'aboutRef'>About</Link></li>
-                <li><Link onClick={removeActive} to = "galleryS" smooth={true} duration={300} id = 'galleryRef'>Gallery</Link></li>
-                <li><Link onClick={removeActive} to = "applicationS" smooth={true} duration={300} id = 'applicationRef'>Application</Link></li>
+                <li><Link onClick={removeActive} to = "homeS" smooth={true} duration={300} id = 'homeRef'>Início</Link></li>                
+                <li><Link onClick={removeActive} to = "aboutS" smooth={true} duration={300} id = 'aboutRef'>Sobre</Link></li>
+                <li><Link onClick={removeActive} to = "galleryS" smooth={true} duration={300} id = 'galleryRef'>Galeria</Link></li>
+                <li><Link onClick={removeActive} to = "applicationS" smooth={true} duration={300} id = 'applicationRef'>Inscrição</Link></li>
                 </ul>
 
             </div>
@@ -77,7 +77,7 @@ function Navbar() {
             
 
             <div className="buttons-container">
-                <Link to = "applicationS" smooth={true} duration={300} target= "_blank" href=" " ><button className="join"> Join us now </button></Link>
+                <Link to = "applicationS" smooth={true} duration={300} target= "_blank" href=" " ><button className="join"> Faça Parte Agora! </button></Link>
                 {/* <button className="group" > group info </button> */}
             </div>
 
@@ -87,17 +87,17 @@ function Navbar() {
                     <a onClick={langActive}>
                     <li className="list-EN" id="list-EN">
                     <div className="lang-EN">
-                    <img src={config.langFlagEN}></img>
-                    <h3>EN</h3>
+                    <img src={config.langFlagBR}></img>
+                    <h3>PT-BR</h3>
                     </div>
                     </li>
                     </a>
                     
-                    <a href="/pt-br">
+                    <a href="/">
                     <li className="list-BR" id="list-BR">
                     <div className="lang-BR">
-                    <img src={config.langFlagBR}></img>
-                    <h3>PT-BR</h3>
+                    <img src={config.langFlagEN}></img>
+                    <h3>EN</h3>
                     </div>                   
                     </li>
                     </a>
