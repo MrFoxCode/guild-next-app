@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import React from 'react';
-import Navbar from '../c_pt-br/Navbar';
-import Home from '../c_pt-br/home';
-import About from '../c_pt-br/about';
-import Gallery from '../c_pt-br/gallery';
-import Application from '../c_pt-br/application';
-import Footer from '../c_pt-br/footer';
+import Navbar from '../c_es/Navbar';
+import Home from '../c_es/home';
+import About from '../c_es/about';
+import Gallery from '../c_es/gallery';
+import Application from '../c_es/application';
+import Footer from '../c_es/footer';
 import config from "../config.json";
 
 //==============================

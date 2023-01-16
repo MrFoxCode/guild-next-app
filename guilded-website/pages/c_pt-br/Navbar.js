@@ -88,7 +88,7 @@ function Navbar() {
                     <li className="list-EN" id="list-EN">
                     <div className="lang-EN">
                     <img src={config.langFlagBR}></img>
-                    <h3>PT-BR</h3>
+                    <h3>BR</h3>
                     </div>
                     </li>
                     </a>
@@ -102,7 +102,7 @@ function Navbar() {
                     </li>
                     </a>
 
-                    <a href=""> 
+                    <a href="/es"> 
                     <li className="list-ES" id="list-ES">
                     <div className="lang-ES">
                     <img src={config.langFlagES}></img>
