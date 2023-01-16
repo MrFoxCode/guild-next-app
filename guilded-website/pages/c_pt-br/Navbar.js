@@ -77,7 +77,7 @@ function Navbar() {
             
 
             <div className="buttons-container">
-                <Link to = "applicationS" smooth={true} duration={300} target= "_blank" href=" " ><button className="join"> Faça Parte Agora! </button></Link>
+                <Link to = "applicationS" smooth={true} duration={300} target= "_blank" href=" " ><button className="join"> Inscreva-se! </button></Link>
                 {/* <button className="group" > group info </button> */}
             </div>
 
