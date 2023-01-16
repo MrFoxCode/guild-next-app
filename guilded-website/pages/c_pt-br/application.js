@@ -7,7 +7,7 @@ function Application() {
 
     return (
         <div className="application-container" id="applicationS">
-            <h1>Application</h1>
+            <h1>Inscrição</h1>
             
             <div className="application-content">
 
@@ -15,27 +15,27 @@ function Application() {
                     
                     <div className="application-text-container">
                         <img src={config.footerLogo}></img>
-                        <h2>Becoming an Oakleaf</h2>
+                        <h2>Se tornando um Oakleaf</h2>
                         <p>
-                          In order to join the guild, you'll need to be interviewed in-game or on Discord by
-                          one of our <b>Oakleaf Masters</b>.
+                          Para se juntar a guild, você irá precisar ser entrevistado em jogo ou através do discord
+                          por um de nossos <b>Oakleaf Masters</b>.
                         </p>
                         <p>
-                          You also can try to reach us in-game by searching for <b>"Oakleaf_Bearers"</b>, on the guild searching
-                          tab or sending a private message to one of our <b>Oakleaf Masters</b>:
+                          Você também pode tentar nos encontrar na aba de guilda, procurando por <b>"Oakleaf_Bearers"</b>. Ou envie uma 
+                          mensagem privada para um de nossos <b>Oakleaf Masters</b>:
                         </p>
                         <p className="masterNames">
                            "Vulpes"
                         </p>
                         <p>
-                          If You are already part of a guild, You also can <b>join us as an Ally</b> or talk to your leaders about
-                          the Alliance, if you are not the Guild Master.
+                          Se você já faz parte de uma Guilda, <b>Junte-se a nós como aliado</b> ou fale com o lider de sua Guilda, 
+                          caso você não for o Mestre de Guilda.
                         </p>
                     </div>
 
                 <div className="apply-buttons-container">
-                <button> Apply Now</button>
-                <a href ={config.discordInvite} target= "_blank"><button className="discord-button">Apply on Discord</button></a>
+                <button> Inscreva-se</button>
+                <a href ={config.discordInvite} target= "_blank"><button className="discord-button">Inscreva-se pelo Discord</button></a>
                 </div>
                 
                 </div>
@@ -44,15 +44,15 @@ function Application() {
                     <img src=""></img>
                     <div className="application-text-container2">
                         <img src={config.footerLogo}></img>
-                        <h2>Requirements</h2>                                              
+                        <h2>Requisitos</h2>                                              
                         <p>
-                          Although we don't have any requirements related to your progress in-game, We have some
-                          requirements needed, related to conduct in order to join the <b>Oakleaf Bearers</b>.
+                          Embora não tenhamos nenhum requisito relacionado a progressão no jogo, Nós temos alguns requisitos 
+                          relaciados a conduta antes de se tornar um <b>Oakleaf Bearers</b>.
                         </p>
 
                         <p>
-                        So feel free to get in touch with us and We'll gladly introduce you to the other
-                        members and our ways.
+                        Então sinta-se livre para entrar em contato conosco, e iremos lhe apresentar 
+                        nossos membros e nossos ideais  com prazer.
                         </p>                        
                         {/* <div className="requirements-container">
                         <li><b>Respect</b> - The base of all community is Respect, so this must be the
@@ -64,8 +64,8 @@ function Application() {
                         <li><b>First</b> - asdasdasdas</li>                        
                         </div> */}
                         <p>
-                          You don't have to fill all the requirements at first, although We wish you could
-                          pursuit them futurely. That's the <b>"Way of the Silver Oakleaf"</b>.
+                          Você não precisa preencher todos os requisitos logo de início, Porém gostarimos que futuramente 
+                          você preencha-os. Esse é o <b>"Caminho do Carvalho de Prata"</b>.
                         </p>
                     </div>
                 </div>

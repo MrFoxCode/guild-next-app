@@ -43,10 +43,9 @@ function About(){
             </div>
             <h2>Nosso Objetivo</h2>
                 <p>
-                Besides building a healthy and respectful community, We also have as goal to be a great and
-                inclusive guild from the South America servers. But the most important thing, is to be a community 
-                that people really feels comfortable to be part of. So be kind and generous to your mates, brothers
-                and sisters, <b>in game and outside</b>.                
+                Além de construir uma comunidade saudável e respeitosa, Nós também temos o objetivo de ser uma grande Guilda inclusiva
+                nos servidores da América do Sul. Mas o ponto mais importante, é ser uma comunidade que as pessoas realmente se sintam
+                confortáveis de fazer parte. Então seja gentil com seus irmãos e irmãs, <b>dentro e fora do jogo</b>.                
                 </p>
             </div>
         </div> 
