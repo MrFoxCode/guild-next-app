@@ -20,8 +20,8 @@ function Navbar() {
 
     //FUNCTION TO DISPLAY MORE LANGS OPTIONS
     const langActive = () =>{
-        let langElement = document.getElementById('list-BR');
-        let langElement2 = document.getElementById('list-ES');
+        let langElement = document.getElementById('list2');
+        let langElement2 = document.getElementById('list3');
 
         //Check if lang tab is active, if not then Add the active class 
         if(langElement.classList.contains('lang-Active')){
@@ -85,17 +85,17 @@ function Navbar() {
                 
                 <ul className="lang-content">
                     <a onClick={langActive}>
-                    <li className="list-EN" id="list-EN">
-                    <div className="lang-EN">
+                    <li className="list1" id="list1">
+                    <div className="lang1">
                     <img src={config.langFlagBR}></img>
-                    <h3>BR</h3>
+                    <h3>PT</h3>
                     </div>
                     </li>
                     </a>
                     
                     <a href="/">
-                    <li className="list-BR" id="list-BR">
-                    <div className="lang-BR">
+                    <li className="list2" id="list2">
+                    <div className="lang2">
                     <img src={config.langFlagEN}></img>
                     <h3>EN</h3>
                     </div>                   
@@ -103,8 +103,8 @@ function Navbar() {
                     </a>
 
                     <a href="/es"> 
-                    <li className="list-ES" id="list-ES">
-                    <div className="lang-ES">
+                    <li className="list3" id="list3">
+                    <div className="lang3">
                     <img src={config.langFlagES}></img>
                     <h3>ES</h3>
                     </div>
