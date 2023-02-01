@@ -12,40 +12,40 @@ function About(){
             </div>
 
             <div className="about-text-container">
-                <h3>Os Oakleaf Bearers</h3>
+                <h3>Los Oakleaf Bearers</h3>
                 <p>
-                A <b>Oakleaf Bearers</b> é uma guilda do MMO <b>Black Desert Online</b> fundada pelo jogador <b>"Vulpes"</b>.                                        
+                Los <b>Oakleaf Bearers</b> es un gremio de MMO <b>Black Desert Online</b> fundado por el jugador <b>"Vulpes"</b>.                                        
                 
                 </p>
             
             <div>
-                <h2>Nossas Atividades</h2>
+                <h2>Nuestras Actividades</h2>
                 
                 <li>
-                <b>Lore e Missões</b> - Black Desert é um jogo vasto, mas a Lore pode ser vaga para alguns jogadores
-                , então gostariamos de construir uma comunidade que conheça sobre missões e a lore do jogo.
-                Assim sendo apto para guiar novos aventureiros, e talvez no futuro eles possam se juntar a nós e fazer
-                o mesmo para recém chegados.
+                <b>Lore y Misiones</b> - Black Desert Es un juego extenso, pero Lore puede ser vago para algunos jugadores.
+                , por lo que nos gustaría construir una comunidad que conozca las misiones y la lore del juego.
+                Entonces, poder guiar a nuevos aventureros, y tal vez en el futuro puedan unirse a nosotros y hacer
+                lo mismo para los recién llegados.
                 </li>
                 <li>
-                <b>Conteúdo PvE</b> - Tais como Grindar, farmar, etc. Em nenhum momento focamos em PvP.
-                Mas se você gosta de conteúdo PvP, sinta-se livre para assim o fazer, no entanto não obrigue ou force outro jogadores para o mesmo.            
+                <b>Contenido PvE</b> - Como la molienda, la agricultura, etc. En ningún momento nos centramos en PvP.
+                Pero si te gusta el contenido PvP, siéntete libre de hacerlo, sin embargo, no obligues a otros jugadores a hacer lo mismo.            
                 </li>
                 <li>
-                <b>LikeSkills</b> - Tais como Treinamento, Colheita, Pesca, etc.
+                <b>LikeSkills</b> - Tales como entrenamiento, cosecha, pesca, etc.
                 </li>
                 <li>
-                <b>RolePlay</b> - Sabemos que muitos jogadores gostam de roleplay, especialmente por que MMORPG é sobre isso afinal. 
-                Então sinta-se livre para apresentar o seu personagem e o background de sua jornada.
-                Afinal de contas, é sobre se divertir no final do dia.    
+                <b>RolePlay</b> - Sabemos que a muchos jugadores les gusta RolePlay, especialmente porque se trata de MMORPG. 
+                Así que siéntete libre de presentar a tu personaje y el background de tu viaje.
+                Después de todo, se trata de divertirse al final del día.    
                 </li>
                 
             </div>
-            <h2>Nosso Objetivo</h2>
+            <h2>Nuestro Objetivo</h2>
                 <p>
-                Além de construir uma comunidade saudável e respeitosa, Nós também temos o objetivo de ser uma grande Guilda inclusiva
-                nos servidores da América do Sul. Mas o ponto mais importante, é ser uma comunidade que as pessoas realmente se sintam
-                confortáveis de fazer parte. Então seja gentil com seus irmãos e irmãs, <b>dentro e fora do jogo</b>.                
+                Además de construir una comunidad saludable y respetuosa, también aspiramos a ser un gran gremio inclusivo
+                en los servidores sudamericanos. Pero el punto más importante es ser una comunidad de la que las personas realmente se sientan 
+                cómodas siendo parte. Así que sé amable con tus hermanos y hermanas, <b>dentro y fuera del juego</b>.                
                 </p>
             </div>
         </div> 

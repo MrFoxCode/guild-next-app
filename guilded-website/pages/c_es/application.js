@@ -7,7 +7,7 @@ function Application() {
 
     return (
         <div className="application-container" id="applicationS">
-            <h1>Inscrição</h1>
+            <h1>Inscripción</h1>
             
             <div className="application-content">
 
@@ -15,27 +15,27 @@ function Application() {
                     
                     <div className="application-text-container">
                         <img src={config.footerLogo}></img>
-                        <h2>Se tornando um Oakleaf</h2>
+                        <h2>Convertirse en un Oakleaf</h2>
                         <p>
-                          Para se juntar a guild, você irá precisar ser entrevistado em jogo ou através do discord
-                          por um de nossos <b>Oakleaf Masters</b>.
+                        Para unirte al gremio, deberás ser entrevistado en el juego o a través de Discord 
+                        por uno de nuestros <b>Oakleaf Masters</b>.
                         </p>
                         <p>
-                          Você também pode tentar nos encontrar na aba de guilda, procurando por <b>"Oakleaf_Bearers"</b>. Ou envie uma 
-                          mensagem privada para um de nossos <b>Oakleaf Masters</b>:
+                        También puedes intentar encontrarnos en la pestaña del gremio buscando <b>"Oakleaf_Bearers"</b>. O envíe un 
+                        mensaje privado a uno de nuestros <b>Oakleaf Masters</b>:
                         </p>
                         <p className="masterNames">
                            "Vulpes"
                         </p>
                         <p>
-                          Se você já faz parte de uma Guilda, <b>Junte-se a nós como aliado</b> ou fale com o lider de sua Guilda, 
-                          caso você não for o Mestre de Guilda.
+                        Si ya eres parte de un gremio, <b>únete a nosotros como aliado</b> o habla con tu líder del gremio 
+                        si no eres el maestro del gremio.
                         </p>
                     </div>
 
                 <div className="apply-buttons-container">
-                <button> Inscreva-se</button>
-                <a href ={config.discordInvite} target= "_blank"><button className="discord-button">Inscreva-se pelo Discord</button></a>
+                <button> Suscribirse</button>
+                <a href ={config.discordInvite} target= "_blank"><button className="discord-button">Suscríbete a Discord</button></a>
                 </div>
                 
                 </div>
@@ -46,13 +46,13 @@ function Application() {
                         <img src={config.footerLogo}></img>
                         <h2>Requisitos</h2>                                              
                         <p>
-                          Embora não tenhamos nenhum requisito relacionado a progressão no jogo, Nós temos alguns requisitos 
-                          relaciados a conduta antes de se tornar um <b>Oakleaf Bearers</b>.
+                        Si bien no tenemos ningún requisito relacionado con la progresión del juego, sí tenemos algunos requisitos 
+                        relacionados con la conducta antes de convertirse en un <b>Oakleaf Bearers</b>.
                         </p>
 
                         <p>
-                        Então sinta-se livre para entrar em contato conosco, e iremos lhe apresentar 
-                        nossos membros e nossos ideais  com prazer.
+                        Así que no dude en contactarnos y con gusto le presentaremos a 
+                        nuestros miembros e ideales.
                         </p>                        
                         {/* <div className="requirements-container">
                         <li><b>Respect</b> - The base of all community is Respect, so this must be the
@@ -64,8 +64,8 @@ function Application() {
                         <li><b>First</b> - asdasdasdas</li>                        
                         </div> */}
                         <p>
-                          Você não precisa preencher todos os requisitos logo de início, Porém gostarimos que futuramente 
-                          você preencha-os. Esse é o <b>"Caminho do Carvalho de Prata"</b>.
+                        No es necesario que complete todos los requisitos de inmediato, pero nos gustaría que los complete en el futuro. 
+                        Este es el <b>"Camino del Roble Plateado"</b>.
                         </p>
                     </div>
                 </div>

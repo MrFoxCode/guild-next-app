@@ -62,10 +62,10 @@ function Navbar() {
                 </div>
                 
                 <ul>
-                <li><Link onClick={removeActive} to = "homeS" smooth={true} duration={300} id = 'homeRef'>Início</Link></li>                
+                <li><Link onClick={removeActive} to = "homeS" smooth={true} duration={300} id = 'homeRef'>Comienzo</Link></li>                
                 <li><Link onClick={removeActive} to = "aboutS" smooth={true} duration={300} id = 'aboutRef'>Sobre</Link></li>
-                <li><Link onClick={removeActive} to = "galleryS" smooth={true} duration={300} id = 'galleryRef'>Galeria</Link></li>
-                <li><Link onClick={removeActive} to = "applicationS" smooth={true} duration={300} id = 'applicationRef'>Inscrição</Link></li>
+                <li><Link onClick={removeActive} to = "galleryS" smooth={true} duration={300} id = 'galleryRef'>Galería</Link></li>
+                <li><Link onClick={removeActive} to = "applicationS" smooth={true} duration={300} id = 'applicationRef'>Inscripción</Link></li>
                 </ul>
 
             </div>
@@ -77,7 +77,7 @@ function Navbar() {
             
 
             <div className="buttons-container">
-                <Link to = "applicationS" smooth={true} duration={300} target= "_blank" href=" " ><button className="join"> Inscreva-se! </button></Link>
+                <Link to = "applicationS" smooth={true} duration={300} target= "_blank" href=" " ><button className="join"> ¡Suscribirse! </button></Link>
                 {/* <button className="group" > group info </button> */}
             </div>
 

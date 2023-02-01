@@ -21,9 +21,9 @@ function Footer(){
             </div>
             
                 <p>
-                A Oakleaf Bearers é uma communidade de jogadores do MMORPG Black Desert Online, no servidor da América do Sul. 
-                Toda criação visual relacionada é propriedade de seus respectivos criadores, e não está associada com nenhum tipo de monetização 
-                ou nenhum outro negócio relacionado a meios lucrativos.
+                Oakleaf Bearers es una comunidad de jugadores del MMORPG Black Desert Online, en el servidor sudamericano.
+                Todas las creaciones visuales relacionadas son propiedad de sus respectivos creadores y no están asociadas a ningún tipo de monetización.
+                o cualquier otro negocio relacionado con fines lucrativos.
                 </p>
             
             </div>
@@ -71,7 +71,7 @@ function Footer(){
         </div>
 
         <div className="all-rights-container">
-            <h4>© 2022 Oakleaf Bearers. Todos os Direitos Reservados. Esse Site não tem nenhuma afiliação com Kakao Games ou Pearl Abyss.</h4>
+            <h4>© 2022 Oakleaf Bearers. Todos los derechos reservados. Este Sitio no tiene afiliación con Kakao Games o Pearl Abyss.</h4>
         </div>
 
 

@@ -9,9 +9,9 @@ function Home(){
 
             
         <div className="mainpage-text-container">
-            <h1>Bem-Vindo!</h1>
-            <h3>Ao site Oficial dos Oakleaf Bearers</h3>
-            <Link to ="applicationS" smooth={true} duration={500}><button>Sua Jornada Começa Aqui</button></Link> 
+            <h1>¡Bienvenido!</h1>
+            <h3>Al sitio web oficial de los Oakleaf Bearers</h3>
+            <Link to ="applicationS" smooth={true} duration={500}><button>Tu viaje comienza aquí</button></Link> 
         </div>
 
 

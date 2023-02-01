@@ -8,7 +8,7 @@ function Gallery() {
     return (
         <div className="gallery-container" id="galleryS">
 
-            <h1>Galeria</h1>
+            <h1>Galería</h1>
 
 
             <div className="gallery-content-container">
@@ -47,13 +47,13 @@ function Gallery() {
                     <div className="gallery-box3">
                         <a>
                             <div className="guides-container">
-                                <h2>Guias</h2>
+                                <h2>Guías</h2>
                             </div>
                         </a>
 
                         <a>
                             <div className="gear-container">
-                                <h2>Equipamento</h2>
+                                <h2>Equipo</h2>
                             </div>
                         </a>
 
