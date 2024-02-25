@@ -152,6 +152,8 @@
   text-align: center;
   position: relative;
   padding-top: 17px;
+  width: 80px;
+  height: 35px;
 }
 .lang-container .lang-content {
   display: flex;
@@ -163,10 +165,16 @@
   align-items: flex-end;
   list-style: none;
   border-radius: 0.9em;
-  width: 100px;
+  width: 80px;
   height: 50px;
   color: black;
   cursor: pointer;
+}
+.lang-container .lang-content .list2, .lang-container .lang-content .list3 {
+  display: none;
+}
+.lang-container .lang-content .lang-Active {
+  display: flex;
 }
 .lang-container .lang-content li {
   display: flex;
@@ -177,8 +185,8 @@
   padding-bottom: 6px;
   padding-left: 14px;
   background-color: rgba(112, 112, 112, 0.5);
-  width: 100px;
-  height: 50px;
+  width: 80px;
+  height: 35px;
   border-radius: 0.9em;
   flex-direction: row;
   align-items: flex-start;
@@ -248,7 +256,7 @@
     position: absolute;
     width: 70px;
     height: 35px;
-    left: 15px;
+    left: 20px;
   }
   .nav-sections-container {
     display: flex;
@@ -387,7 +395,7 @@
   text-align: center;
   height: 120vh;
   width: 100%;
-  background-image: url("https://cdn.discordapp.com/attachments/1046815806866083893/1046884744970907648/bghomeblur.jpg");
+  background-image: url("/bghomeblur.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -494,7 +502,7 @@
   text-align: center;
   width: 100%;
   height: 120vh;
-  background-image: url("https://cdn.discordapp.com/attachments/1046815806866083893/1047937749010886676/aboutbg.jpg");
+  background-image: url("/aboutbg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -665,7 +673,7 @@
   width: 100%;
   height: 100vh;
   background-color: rgb(12, 12, 12);
-  background-image: url("https://cdn.discordapp.com/attachments/1046815806866083893/1047938279342866523/gallerybg.jpg");
+  background-image: url("/gallerybg.jpg");
   background-position: right;
   background-size: 150%;
   background-repeat: no-repeat;
@@ -709,7 +717,7 @@
   text-align: center;
   height: 700px;
   width: 500px;
-  background-image: url("https://cdn.discordapp.com/attachments/1046815806866083893/1046883559538954342/gallerybgedited.jpg");
+  background-image: url("/gallerybgedited.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -765,7 +773,7 @@
   background-color: green;
   background-size: 320%;
   background-position: top right;
-  background-image: url("https://cdn.discordapp.com/attachments/1046815806866083893/1046904682418802819/uniformbgbdo.jpg");
+  background-image: url("/uniformbgbdo.jpg");
 }
 .gallery-content-container .gallery-right-side .gallery-box2 .uniform-container:hover {
   transform: scale(1.05);
@@ -785,7 +793,7 @@
   text-align: center;
   width: 266px;
   height: 350px;
-  background-image: url("https://mmorpgbr.com.br/wp-content/uploads/2021/04/1650f2c26116057cef9e772436dfbeb13be62fac.jpg");
+  background-image: url("/sage.jpg");
   background-size: 300%;
   background-position: center;
   background-repeat: no-repeat;
@@ -803,7 +811,7 @@
   text-align: center;
   width: 266px;
   height: 350px;
-  background-image: url("https://cdn.discordapp.com/attachments/1046815806866083893/1046893327024402541/uniform.jpg");
+  background-image: url("/uniform.jpg");
   background-size: 175%;
   background-position: center;
   background-repeat: no-repeat;
@@ -994,7 +1002,7 @@
   align-items: center;
   text-align: center;
   background-color: rgb(44, 44, 44);
-  background-image: url("https://cdn.discordapp.com/attachments/1046815806866083893/1046840390889775195/applybgedited.jpg");
+  background-image: url("/applybgedited.jpg");
   background-position: center;
   height: 100vh;
   width: 100%;
@@ -1338,6 +1346,7 @@
   width: 40px;
   height: 40px;
   margin: 10px;
+  filter: brightness(0) invert(1);
 }
 
 .all-rights-container {
@@ -1401,6 +1410,9 @@
     width: 100%;
     margin-top: 30px;
   }
+  .footer-content-container .footer-content-socials .stacks-container img {
+    filter: contrast(1.2) brightness(1);
+  }
   .top-footer-container {
     height: 10vh;
   }
@@ -1441,4 +1453,4 @@ a {
     color: white;
     background: black;
   }
-} /*# sourceMappingURL=globals.css.map */ /*# sourceMappingURL=globals.css.map *//*# sourceMappingURL=globals.css.map */
+}  /*# sourceMappingURL=globals.css.map */
